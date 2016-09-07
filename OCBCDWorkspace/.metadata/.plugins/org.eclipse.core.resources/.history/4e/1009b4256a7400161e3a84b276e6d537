@@ -1,0 +1,353 @@
+package ocbcd.helloworld;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.Resource;
+import javax.ejb.Stateless;
+import javax.sql.DataSource;
+
+/**
+ * Session Bean implementation class HelloWorldEJB
+ */
+@Stateless(mappedName = "HelloWorldEJB")
+public  class HelloWorldEJB implements HelloWorldEJBRemote {
+
+	//New
+	@Resource(name="ocbcd", mappedName="java:ocbcd")
+    private DataSource dataSource;
+    
+	//@Override
+	public String getGreeting(String name) throws SQLException{
+		//New
+		 Connection connection = null;
+	   	 PreparedStatement prepareStatement = null;
+	   	 ResultSet resultSet = null;
+	   	 List<String> names = null;
+	   			 
+	   	 try {
+	   		 connection = dataSource.getConnection();
+	   		 prepareStatement = connection.prepareStatement( "SELECT username, password, age, name, surname FROM ocbcd.user where username = ?");
+	                           prepareStatement.setString(1, name);
+	   		 resultSet = prepareStatement.executeQuery();
+	   		 
+	   		 names = new ArrayList<String>();
+	   		 
+	   		while(resultSet.next())
+  			 {
+  				 names.add(resultSet.getString("name") +" " + resultSet.getString("surname"));
+  			 }
+  			     		 
+	   	 }
+	   	 finally{
+	   		 if(resultSet != null) resultSet.close();
+	   		 if(prepareStatement != null) prepareStatement.close();
+	   		 if(connection != null) connection.close();
+	   	 }
+	   	 
+	   	 return "Hello " + names.get(0);
+ 
+	 
+
+	}
+	
+	//@Override
+	public boolean createUser(UserDTO obj) throws SQLException {
+	   	 
+	   	 Connection connection = null;
+	   	 PreparedStatement prepareStatement = null;
+	   			 
+	   	 try {
+	   		 connection = dataSource.getConnection();
+	   		 prepareStatement = connection.prepareStatement("INSERT INTO ocbcd.user (username, password, age, name, surname ) VALUES (?,?,?,?,?)");
+	   		 
+	   		 prepareStatement.setString(1, obj.getUsername());
+	   		 prepareStatement.setString(2, obj.getPassword());
+	   		 prepareStatement.setInt(3, obj.getAge());
+	   		 prepareStatement.setString(4, obj.getName());
+	   		 prepareStatement.setString(5, obj.getSurname());
+	   		 
+	   		 prepareStatement.executeUpdate();
+	   		 
+	   	 }
+	   	 catch( Exception e){
+	   		
+	   		 return false;
+	   	 }
+	   	 finally{
+	   		 if(prepareStatement != null) prepareStatement.close();
+	   		 if(connection != null) connection.close();
+	   		
+	   	 }
+	   	return true;
+	    }
+	
+	 //@Override
+	public boolean updateUser(UserDTO obj) throws SQLException {
+		 	 
+	   	 Connection connection = null;
+	   	 PreparedStatement prepareStatement = null;
+	   			 
+	   	 try {
+	   		 connection = dataSource.getConnection();
+	   		 prepareStatement = connection.prepareStatement("UPDATE ocbcd.user SET  password = ?, age= ?, name= ?, surname=? WHERE username = ? and password = ? ;");
+	   		 
+	   		prepareStatement.setString(1, obj.getPassword());
+	   		 prepareStatement.setInt(2, obj.getAge());
+	   		 prepareStatement.setString(3, obj.getName());
+	   		 prepareStatement.setString(4, obj.getSurname());
+	   		prepareStatement.setString(5, obj.getUsername());
+	   		prepareStatement.setString(6, obj.getPassword());
+	   		 prepareStatement.executeUpdate();
+	   		 
+	   	 }
+	   	 finally{
+	   		 if(prepareStatement != null) prepareStatement.close();
+	   		 if(connection != null) connection.close();
+	   	 }
+		return true;
+	   	 
+	    }
+
+
+	 //@Override
+	public List<String> getNames()  throws SQLException {
+		 Connection connection = null;
+	   	 PreparedStatement prepareStatement = null;
+	   	 ResultSet resultSet = null;
+	   	 List<String> names = null;
+	   			 
+	   	 try {
+	   		 connection = dataSource.getConnection();
+	   		 prepareStatement = 
+	   				 connection.prepareStatement( "SELECT username, password, age, name, surname FROM ocbcd.user ;");
+	                          // prepareStatement.//setString(1, name);*/
+	   		 resultSet = prepareStatement.executeQuery();
+	   		 
+	   		 names = new ArrayList<String>();
+	   		 
+	   			while(resultSet.next())
+	   			 {
+	   				 names.add(resultSet.getString("name")+ " " + resultSet.getString("surname"));
+	   			 }
+	   			    		 
+	   	 }
+	   	 finally{
+	   		 if(resultSet != null) resultSet.close();
+	   		 if(prepareStatement != null) prepareStatement.close();
+	   		 if(connection != null) connection.close();
+	   	 }
+	   	 
+	   	 int positions = names.size();
+	   	 String names1 = "";
+	   	 for (int x=0;x<positions;x++){
+	   		names1 = names1 + "<p>"+ names.get(x)+ " </p>" ;
+	   	 }
+	   	 return  names;
+
+	 
+	}
+	
+	
+	 //@Override
+	public boolean createEvent(Date eventStartdate,Date eventEnddate,String  eventVenue ,String eventDescription,int eventOrganiserid,
+String adrAdress,int adrPostcode,String adrCity,String adrCountry) throws SQLException {
+	   	 
+	   	 Connection connection = null;
+	   	 PreparedStatement prepareStatement = null;
+	   	 
+	   		
+	   	 try {
+	   		 connection = dataSource.getConnection();
+	   		 prepareStatement = connection.prepareStatement("INSERT INTO ocbcd.adress(adress, postcode, city, country)VALUES (?, ?, ?, ?, ?)");
+	   		 
+	   		 prepareStatement.setInt(1,4);
+	   		 prepareStatement.setString(2, adrAdress);
+	   		 prepareStatement.setInt(3, adrPostcode);
+	   		 prepareStatement.setString(4, adrCity);
+	   		 prepareStatement.setString(5, adrCountry);
+	   		 
+	   		 prepareStatement.executeUpdate();
+	   		 
+	   	 }
+	   	 catch( Exception e){
+	   		
+	   		 return false;
+	   	 }
+	    connection = null;
+	   	prepareStatement = null;
+	   	 /*****/
+	   	 try {
+	   		 connection = dataSource.getConnection();
+	   		 prepareStatement = connection.prepareStatement("INSERT INTO ocbcd.event( startdate, enddate, venue, adressid, description, organiserid)VALUES ( ?, ?, ?, ?, ?, ?)");
+	   		 
+	   		
+	   		 prepareStatement.setDate(1, eventStartdate);
+	   		 prepareStatement.setDate(2, eventEnddate);
+	   		 prepareStatement.setString(3, eventVenue);
+	   		 prepareStatement.setInt(4, 1);
+	   		prepareStatement.setString(5, eventDescription);
+	   		 prepareStatement.setInt(6, eventOrganiserid);
+	   		 
+	   		 prepareStatement.executeUpdate();
+	   		 
+	   	 }
+	   	 catch( Exception e){
+	   		
+	   		 return false;
+	   	 }
+	   	 finally{
+	   		 if(prepareStatement != null) prepareStatement.close();
+	   		 if(connection != null) connection.close();
+	   		
+	   	 }
+	   	return true;
+	    }
+
+	
+	 //@Override
+
+	public boolean updateEvent(int id,Date eventStartdate,Date eventEnddate,String  eventVenue ,String eventDescription,int eventOrganiserid,
+			String adrAdress,int adrPostcode,String adrCity,String adrCountry) throws SQLException {
+		 	 
+	   	 Connection connection = null;
+	   	 PreparedStatement prepareStatement = null;
+	   			 
+		 try { 
+	   		 connection = dataSource.getConnection();
+	   		 prepareStatement = connection.prepareStatement("UPDATE ocbcd.event SET  startdate=?, enddate=?, venue=?, description=?,organiserid=?WHERE id=?;");
+	   		 
+	   		 prepareStatement.setDate(1,eventStartdate);
+	   		 prepareStatement.setDate(2,eventEnddate);
+	   		 prepareStatement.setString(3, eventVenue);
+	   		prepareStatement.setString(3, eventDescription);
+	   		prepareStatement.setInt(3, eventOrganiserid);
+	   		prepareStatement.setInt(3, id);
+	   		 
+	   		 
+	   		 prepareStatement.executeUpdate();
+	   		 
+	   	 }
+	   	 catch( Exception e){
+	   		
+	   		 return false;
+	   	 }
+	   	 finally{
+	   		 if(prepareStatement != null) prepareStatement.close();
+	   		 if(connection != null) connection.close();
+	   		
+	   	 }
+		return true;
+	   	 
+	    }
+	 //@Override
+	public Models getEvent(int id) throws SQLException {
+		 Connection connection = null;
+		 Models events = new Models();
+	   	 PreparedStatement prepareStatement = null;
+	   	 ResultSet resultSet = null;
+	   	 List<Models> names = null;
+	   			 
+	   	 try {
+	   		 connection = dataSource.getConnection();
+	   		 prepareStatement = 
+	   				 connection.prepareStatement( "﻿SELECT event.id as eventID, event.startdate as startDate, event.enddate as EndDate, event.venue as Venue, event.adressid as AdressID,"
+	   						 + " event.description as description, event.organiserid as organiserID,"+
+							"adr.adress as Adress, adr.postcode as postCode, ar.city as City, adr.country as Country,"
+									+ " users.name as uploaderName, users.surname as uploaderSurname, users.role as uploaderRole, users.email as uploaderEmail FROM ocbcd.event as  event"
+							 +" join ocbcd.adress as adr  on adr.id = event.adressid  join ocbcd.users as users on users.id = event.organiserid "
+									+"where event.id = ?");
+	                           prepareStatement.setInt(1, id);
+	   		 resultSet = prepareStatement.executeQuery();
+	   		 
+	   		 
+	   		// names = new ArrayList<Models>();
+	   		 
+	   			while(resultSet.next())
+	   			 {
+	   				events.setAdrCity(resultSet.getString("eventID"));
+	   				events.setEventStartdate(resultSet.getDate("startDate"));
+	   				events.setEventEnddate(resultSet.getDate("EndDate"));
+	   				events.setEventVenue(resultSet.getString("Venue"));
+	   				events.setAdrPostcode(resultSet.getInt("postCode"));
+	   				events.setEventDescription(resultSet.getString("Description"));
+	   				
+	   			//	names.add(events);
+	   			 }
+	   			    		 
+	   	 }
+	   	 finally{
+	   		 if(resultSet != null) resultSet.close();
+	   		 if(prepareStatement != null) prepareStatement.close();
+	   		 if(connection != null) connection.close();
+	   	 }
+	   	 /*
+	   	 int positions = names.size();
+	   	 String names1 = "";
+	   	 for (int x=0;x<positions;x++){
+	   		names1 = names1 + "<p>"+ names.get(x)+ " </p>" ;
+	   	 }*/
+	   	 return  events;
+
+	}
+	
+	
+//@Override
+	public List<Models> getEvents()  throws SQLException {
+		 Connection connection = null;
+	   	 PreparedStatement prepareStatement = null;
+	   	 ResultSet resultSet = null;
+	   	 List<Models> names = null;
+	   			 
+	   	 try {
+	   		 connection = dataSource.getConnection();
+	   		 prepareStatement = 
+	   				 connection.prepareStatement( "﻿SELECT event.id as eventID, event.startdate as startDate, event.enddate as EndDate, event.venue as Venue, event.adressid as AdressID,"
+	   						 + " event.description as description, event.organiserid as organiserID,"+
+							"adr.adress as Adress, adr.postcode as postCode, ar.city as City, adr.country as Country,"
+									+ " users.name as uploaderName, users.surname as uploaderSurname, users.role as uploaderRole, users.email as uploaderEmail FROM ocbcd.event as  event"
+							 +" join ocbcd.adress as adr  on adr.id = event.adressid  join ocbcd.users as users on users.id = event.organiserid ");
+	                          // prepareStatement.//setString(1, name);*/
+	   		 resultSet = prepareStatement.executeQuery();
+	   		 
+	   		 Models events = new Models();
+	   		 names = new ArrayList<Models>();
+	   		 
+	   			while(resultSet.next())
+	   			 {
+	   				events.setAdrCity(resultSet.getString("eventID"));
+	   				events.setEventStartdate(resultSet.getDate("startDate"));
+	   				events.setEventEnddate(resultSet.getDate("EndDate"));
+	   				events.setEventVenue(resultSet.getString("Venue"));
+	   				events.setAdrPostcode(resultSet.getInt("postCode"));
+	   				events.setEventDescription(resultSet.getString("Description"));
+	   				
+	   				names.add(events);
+	   			 }
+	   			    		 
+	   	 }
+	   	 finally{
+	   		 if(resultSet != null) resultSet.close();
+	   		 if(prepareStatement != null) prepareStatement.close();
+	   		 if(connection != null) connection.close();
+	   	 }
+	   	 
+	   	 int positions = names.size();
+	   	 String names1 = "";
+	   	 for (int x=0;x<positions;x++){
+	   		names1 = names1 + "<p>"+ names.get(x)+ " </p>" ;
+	   	 }
+	   	 return  names;
+
+	 
+	}
+
+
+	
+
+}

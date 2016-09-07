@@ -1,0 +1,114 @@
+package ocbcd.helloworld;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.Resource;
+import javax.ejb.Stateless;
+import javax.sql.DataSource;
+
+/**
+ * Session Bean implementation class HelloWorldEJB
+ */
+@Stateless(mappedName = "HelloWorldEJB")
+public class HelloWorldEJB implements HelloWorldEJBRemote {
+
+	//New
+	@Resource(name="ocbcd", mappedName="java:ocbcd")
+    private DataSource dataSource;
+    
+	//@Override
+	public String getGreeting(String name) throws SQLException{
+		//New
+		 Connection connection = null;
+	   	 PreparedStatement prepareStatement = null;
+	   	 ResultSet resultSet = null;
+	   	 List<String> names = null;
+	   			 
+	   	 try {
+	   		 connection = dataSource.getConnection();
+	   		 prepareStatement = 
+	   				 connection.prepareStatement( "Select username, password, age, name, surname" + 
+	                                                        "From ocbcd.user where username = ?");
+	                           prepareStatement.setString(1, name);
+	   		 resultSet = prepareStatement.executeQuery();
+	   		 
+	   		 names = new ArrayList<String>();
+	   		 
+	   		 if(resultSet.first()){
+	   			 do
+	   			 {
+	   				 names.add(resultSet.getString("name"));
+	   			 }
+	   			 while(resultSet.next());
+	   		 }   		 
+	   	 }
+	   	 finally{
+	   		 if(resultSet != null) resultSet.close();
+	   		 if(prepareStatement != null) prepareStatement.close();
+	   		 if(connection != null) connection.close();
+	   	 }
+	   	 
+	   	 return "Hello " + names.get(0);
+ 
+	 
+
+	}
+	
+	//@Override
+	public void createUser(String username,String password,int age,String name,String surname) throws SQLException {
+	   	 
+	   	 Connection connection = null;
+	   	 PreparedStatement prepareStatement = null;
+	   			 
+	   	 try {
+	   		 connection = dataSource.getConnection();
+	   		 prepareStatement = connection.prepareStatement("INSERT INTO ocbcd.user (username, password, age, name, surname ) VALUES (?,?,?,?,?)");
+	   		 
+	   		 prepareStatement.setString(1, username);
+	   		 prepareStatement.setString(2, password);
+	   		 prepareStatement.setInt(3, age);
+	   		 prepareStatement.setString(4, name);
+	   		 prepareStatement.setString(5, surname);
+	   		 
+	   		 prepareStatement.executeUpdate();
+	   		 
+	   	 }
+	   	 finally{
+	   		 if(prepareStatement != null) prepareStatement.close();
+	   		 if(connection != null) connection.close();
+	   	 }
+	   	 
+	    }
+	
+	 @Override
+	 public void updateUser(String username,String password,int age,String name,String surname) throws SQLException {
+	   	 
+	   	 Connection connection = null;
+	   	 PreparedStatement prepareStatement = null;
+	   			 
+	   	 try {
+	   		 connection = dataSource.getConnection();
+	   		 prepareStatement = connection.prepareStatement("UPDATE ocbcd.user SET (password = ? , age = ? , name = ? , surname = ?)  WHERE username = ?");
+	   		 
+	   		 prepareStatement.setString(1, password);
+	   		 prepareStatement.setInt(2, age);
+	   		 prepareStatement.setString(3, name);
+	   		 prepareStatement.setString(4, surname);
+	   		 prepareStatement.setString(5, username);
+	   		 
+	   		 prepareStatement.executeUpdate();
+	   		 
+	   	 }
+	   	 finally{
+	   		 if(prepareStatement != null) prepareStatement.close();
+	   		 if(connection != null) connection.close();
+	   	 }
+	   	 
+	    }
+
+}

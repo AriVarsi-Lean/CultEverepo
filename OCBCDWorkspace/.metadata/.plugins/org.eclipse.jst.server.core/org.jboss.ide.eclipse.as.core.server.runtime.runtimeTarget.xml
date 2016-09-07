@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<classpath>
+  <source-attachment entry="/opt/jboss/jboss-5.1.0.GA/common/lib/jboss-ejb3-transactions.jar" runtime-id="JBoss 5.1 Runtime 1" source-attachment-path="/opt/jboss/jboss-5.1.0.GA/common/lib/jboss-ejb3-transactions.jar"/>
+  <source-attachment entry="/opt/jboss/jboss-5.1.0.GA/server/default/lib/postgresql-9.4.1208.jre6.jar" runtime-id="JBoss 5.1 Runtime 1" source-attachment-path="/OCBCDLessonWeb/WebContent/WEB-INF/lib/postgresql-9.4.1208.jre6.jar"/>
+</classpath>

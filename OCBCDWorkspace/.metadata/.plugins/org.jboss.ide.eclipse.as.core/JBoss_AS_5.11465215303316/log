@@ -1,0 +1,1344 @@
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-06 14:15:33.276
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-06 14:16:15.568
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-06 14:18:26.929
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-06 14:18:26.974
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-06 14:19:08.039
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-06 14:42:35.795
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-06 14:48:25.132
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-06 14:49:04.886
+!MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-06 15:04:19.097
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-06 15:05:03.037
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-06 15:11:47.666
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-06 15:12:01.738
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-06 15:12:42.029
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-06 15:31:50.919
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-06 15:32:32.286
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-06 15:33:12.844
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-06 15:37:55.362
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-06 15:39:37.232
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-06 15:40:17.983
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-06 16:47:34.966
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-06 16:48:02.526
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-06 16:48:24.448
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-06 17:06:26.606
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-06 17:08:01.415
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-06 17:08:26.139
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-06 17:39:04.186
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-06 17:46:47.395
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-06 17:47:11.823
+!MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-07 11:01:33.858
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-07 11:02:15.643
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 1644298244 2016-06-07 11:09:40.878
+!MESSAGE Publish Failed for module OCBCDLessonEAR
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 0 2016-06-07 11:09:40.878
+!MESSAGE Could not delete file /home/ari/OCBCDWorkspace/.metadata/.plugins/org.jboss.ide.eclipse.as.core/JBoss_AS_5.11465215303316/tempRemoteDeploy/OCBCDLessonEJBClient.jar/META-INF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 0 2016-06-07 11:09:40.878
+!MESSAGE Could not delete file /home/ari/OCBCDWorkspace/.metadata/.plugins/org.jboss.ide.eclipse.as.core/JBoss_AS_5.11465215303316/tempRemoteDeploy/OCBCDLessonEJBClient.jar/ocbcd
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 1644298244 2016-06-07 11:43:40.921
+!MESSAGE Publish Failed for module OCBCDLessonEAR
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 0 2016-06-07 11:43:40.921
+!MESSAGE Could not delete file /home/ari/OCBCDWorkspace/.metadata/.plugins/org.jboss.ide.eclipse.as.core/JBoss_AS_5.11465215303316/tempRemoteDeploy/OCBCDLessonEJBClient.jar/ocbcd/helloworld/UserDAORemote.class
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 1644298244 2016-06-07 11:49:50.063
+!MESSAGE Publish Failed for module OCBCDLessonEAR
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 0 2016-06-07 11:49:50.063
+!MESSAGE Could not delete file /home/ari/OCBCDWorkspace/.metadata/.plugins/org.jboss.ide.eclipse.as.core/JBoss_AS_5.11465215303316/tempRemoteDeploy/OCBCDLessonEJBClient.jar/ocbcd/helloworld/UserDAORemote.class
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-06-07 11:58:09.127
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:275)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy17.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	... 11 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-06-07 11:58:09.128
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:275)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy17.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	... 11 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-06-07 11:58:09.129
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:275)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy17.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	... 11 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-06-07 11:58:09.129
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:275)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy17.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-07 11:58:10.632
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-07 12:26:16.118
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-07 12:26:58.278
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 1644298244 2016-06-07 12:59:46.576
+!MESSAGE Publish Failed for module OCBCDLessonEAR
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 0 2016-06-07 12:59:46.576
+!MESSAGE Could not delete file /home/ari/OCBCDWorkspace/.metadata/.plugins/org.jboss.ide.eclipse.as.core/JBoss_AS_5.11465215303316/tempRemoteDeploy/OCBCDLessonEJBClient.jar/ocbcd/helloworld/UserDTO$UserDTOBuilder.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 0 2016-06-07 12:59:46.576
+!MESSAGE Could not delete file /home/ari/OCBCDWorkspace/.metadata/.plugins/org.jboss.ide.eclipse.as.core/JBoss_AS_5.11465215303316/tempRemoteDeploy/OCBCDLessonEJBClient.jar/ocbcd/helloworld/UserDTO.class
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 1644298244 2016-06-07 13:00:19.884
+!MESSAGE Publish Failed for module OCBCDLessonEAR
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 0 2016-06-07 13:00:19.884
+!MESSAGE Could not delete file /home/ari/OCBCDWorkspace/.metadata/.plugins/org.jboss.ide.eclipse.as.core/JBoss_AS_5.11465215303316/tempRemoteDeploy/OCBCDLessonEJBClient.jar/ocbcd/helloworld/UserDTO$UserDTOBuilder.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 0 2016-06-07 13:00:19.884
+!MESSAGE Could not delete file /home/ari/OCBCDWorkspace/.metadata/.plugins/org.jboss.ide.eclipse.as.core/JBoss_AS_5.11465215303316/tempRemoteDeploy/OCBCDLessonEJBClient.jar/ocbcd/helloworld/UserDTO.class
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-06-07 13:00:41.747
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:275)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy17.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	... 11 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-06-07 13:00:41.747
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:275)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy17.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	... 11 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-06-07 13:00:41.748
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:275)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy17.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	... 11 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-06-07 13:00:41.748
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:275)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy17.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-07 13:00:43.350
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-07 13:01:05.322
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-07 13:01:45.372
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-07 13:02:17.207
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-07 13:02:17.258
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-07 13:02:59.312
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-07 13:43:58.137
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 1644298244 2016-06-07 16:35:42.078
+!MESSAGE Publish Failed for module OCBCDLessonEAR
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 0 2016-06-07 16:35:42.078
+!MESSAGE Could not delete file /home/ari/OCBCDWorkspace/.metadata/.plugins/org.jboss.ide.eclipse.as.core/JBoss_AS_5.11465215303316/tempRemoteDeploy/OCBCDLessonEJBClient.jar/ocbcd/helloworld/UserDAORemote.class
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-07 16:35:42.142
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-07 16:36:23.401
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-07 16:43:29.676
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-07 16:44:11.122
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-07 16:44:52.592
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-07 16:48:55.226
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-07 16:50:21.332
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-07 16:51:02.287
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-07 21:02:45.423
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-07 23:35:22.936
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-07 23:35:46.647
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-08 08:36:18.474
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-08 08:37:24.197
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-08 08:37:48.325
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-08 08:40:13.924
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-08 08:40:13.995
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-08 08:40:37.628
+!MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-08 09:39:14.947
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-08 09:39:56.220
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-08 09:46:37.426
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-08 09:46:37.510
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-08 09:47:17.368
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-08 09:55:52.496
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-08 10:01:30.804
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-08 10:02:12.081
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-08 10:20:41.552
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-08 12:53:53.872
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-08 12:54:17.634
+!MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-08 12:59:54.903
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-08 13:00:25.667
+!MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-09 09:17:11.535
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-09 09:17:53.691
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-09 09:29:52.149
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-09 14:13:36.343
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-09 14:14:19.416
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-06-09 14:27:48.327
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-06-09 14:28:09.200
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-06-09 14:28:52.558
+!MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-05 19:27:22.147
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-05 19:27:50.154
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-05 19:28:55.131
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-05 19:40:50.959
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-05 19:41:15.100
+!MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-09-06 14:35:57.025
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy47.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	... 11 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-06 14:35:57.026
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy47.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	... 11 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-06 14:35:57.026
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy47.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	... 11 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-09-06 14:35:57.026
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy47.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-09-06 14:35:57.025
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy47.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	... 11 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-06 14:35:57.027
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy47.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	... 11 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-06 14:35:57.028
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy47.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	... 11 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-09-06 14:35:57.028
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jboss.invocation.jrmp.server.JRMPInvoker_Stub.invoke(Unknown Source)
+	at org.jboss.invocation.jrmp.interfaces.JRMPInvokerProxy.invoke(JRMPInvokerProxy.java:133)
+	at org.jboss.invocation.InvokerInterceptor.invokeInvoker(InvokerInterceptor.java:365)
+	at org.jboss.invocation.InvokerInterceptor.invoke(InvokerInterceptor.java:197)
+	at org.jboss.jmx.connector.invoker.client.InvokerAdaptorClientInterceptor.invoke(InvokerAdaptorClientInterceptor.java:66)
+	at org.jboss.proxy.SecurityInterceptor.invoke(SecurityInterceptor.java:68)
+	at org.jboss.proxy.ClientMethodInterceptor.invoke(ClientMethodInterceptor.java:74)
+	at org.jboss.proxy.ClientContainer.invoke(ClientContainer.java:101)
+	at com.sun.proxy.$Proxy47.getAttribute(Unknown Source)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getAttributeResult(JBossLT6ModuleStateVerifier.java:248)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkStandaloneWebModuleStarted(JBossLT6ModuleStateVerifier.java:238)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkWebModuleStarted(JBossLT6ModuleStateVerifier.java:220)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.checkDeploymentStarted(JBossLT6ModuleStateVerifier.java:211)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.jmxWaitForDeploymentStarted(JBossLT6ModuleStateVerifier.java:194)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier$3.run(JBossLT6ModuleStateVerifier.java:176)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner$1.run(JBossServerJMXRunner.java:29)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:205)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitJMX(JBossLT6ModuleStateVerifier.java:180)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:170)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.waitModuleStarted(JBossLT6ModuleStateVerifier.java:160)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:97)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 14:44:10.454
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 14:44:39.231
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 15:05:31.141
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 15:05:31.233
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 15:05:56.687
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 15:06:45.512
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 15:07:07.321
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 15:07:31.757
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 15:12:46.183
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 15:13:15.745
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 15:13:40.473
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 15:38:57.109
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 15:39:30.413
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 15:39:57.969
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 15:45:31.290
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 15:46:16.663
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 15:46:41.696
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 15:49:47.795
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 15:50:13.600
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 15:50:39.834
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 15:51:37.804
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 15:52:09.212
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 15:52:33.860
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 16:22:57.964
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 16:23:49.387
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 16:24:33.546
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 16:45:24.499
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 16:46:08.473
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 16:46:54.929
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 16:50:29.416
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 16:53:09.585
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 16:53:55.275
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 17:03:40.733
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 17:04:18.639
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 17:05:05.798
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 17:06:24.600
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 17:06:24.670
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 17:07:10.334
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 17:11:10.508
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 17:11:14.947
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 17:12:02.614
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 17:20:00.755
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 17:20:00.814
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 17:20:46.582
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 17:32:18.229
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 17:32:18.295
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 17:33:02.162
+!MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 18:53:22.142
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 18:53:48.940
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 19:13:40.324
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 19:13:40.475
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 19:14:04.523
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 19:16:37.286
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 19:17:02.458
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 19:17:25.899
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 21:27:01.777
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 21:30:21.140
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 21:30:44.572
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 21:33:23.411
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 21:34:35.270
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 21:34:58.593
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 21:43:49.092
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 21:44:13.104
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 21:44:38.031
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 22:56:17.457
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 23:27:14.700
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 23:27:40.550
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 23:28:59.027
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-09-06 23:28:59.028
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.CommunicationException [Root exception is java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:839)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:216)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	... 15 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(RMIDirectSocketFactory.java:40)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:148)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:613)
+	... 20 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-06 23:28:59.029
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.CommunicationException [Root exception is java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:839)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:216)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	... 15 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(RMIDirectSocketFactory.java:40)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:148)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:613)
+	... 20 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-06 23:28:59.029
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.CommunicationException [Root exception is java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:839)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:216)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	... 15 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(RMIDirectSocketFactory.java:40)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:148)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:613)
+	... 20 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-09-06 23:28:59.029
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+javax.naming.CommunicationException [Root exception is java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:839)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:216)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:130)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	... 15 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(RMIDirectSocketFactory.java:40)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:148)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:613)
+	... 20 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-06 23:29:26.850
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-06 23:29:50.989
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-06 23:32:33.478
+!MESSAGE Server processes have been terminated.

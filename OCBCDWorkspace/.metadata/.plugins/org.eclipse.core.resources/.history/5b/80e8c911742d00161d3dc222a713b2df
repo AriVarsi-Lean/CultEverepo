@@ -1,0 +1,75 @@
+package ocbcd.helloworld;
+
+import java.io.Serializable;
+
+public class UserDTO implements Serializable{
+	
+	private static final long serialVersionUID = 1L;
+	private final String username;
+	private final String password;
+	private final int age;
+	private final String name;
+	private final String surname;
+	
+	private UserDTO(UserDTOBuilder obj){
+		this.username = obj.username;
+		this.password = obj.password;
+		this.age = obj.age;
+		this.name = obj.name;
+		this.surname = obj.surname;
+	}
+	
+	public String getUsername(){
+		return this.username;
+	}
+	
+	public String getPassword(){
+		return this.password;
+	}
+	
+	public int getAge(){
+		return this.age;
+	}
+	
+	public String getName(){
+		return this.name;
+	}
+	
+	public String getSurname(){
+		return this.surname;
+	}
+	
+
+	public static class UserDTOBuilder{
+	    private final String username;
+	    private final String password;
+	    private int age;
+	    private String name;
+	    private String surname;
+
+	    public UserDTOBuilder(ResultObject res) {
+	        this.username= res.getUsername();
+	        this.password = res.getPassword();
+	    }
+
+	    public UserDTOBuilder age(ResultObject res) {
+	        this.age = res.getAge();
+	        return this;
+	    }
+
+	    public UserDTOBuilder name(ResultObject res) {
+	        this.name = res.getName();
+	        return this;
+	    }
+
+	    public UserDTOBuilder surname(ResultObject res) {
+	        this.surname = res.getSurname();
+	        return this;
+	    }
+
+	    public UserDTO build() {
+	        return new UserDTO(this);
+	    }
+
+	}
+}	

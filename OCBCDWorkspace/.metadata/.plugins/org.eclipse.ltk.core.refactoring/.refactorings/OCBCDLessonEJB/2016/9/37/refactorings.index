@@ -1,0 +1,11 @@
+1473160409928	Encapsulate field 'id'
+1473160421503	Encapsulate field 'eventStartdate'
+1473160428961	Encapsulate field 'eventEnddate'
+1473160439984	Encapsulate field 'eventVenue'
+1473160450935	Encapsulate field 'eventDescription'
+1473160459556	Encapsulate field 'eventOrganiserid'
+1473160465381	Encapsulate field 'adrPostcode'
+1473160470813	Encapsulate field 'adrCity'
+1473160479880	Encapsulate field 'adrCountry'
+1473163751826	Copy compilation unit
+1473163763029	Delete element

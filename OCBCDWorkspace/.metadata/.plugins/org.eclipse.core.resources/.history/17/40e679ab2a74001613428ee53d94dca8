@@ -1,0 +1,25 @@
+package ocbcd.helloworld;
+
+import java.sql.Date;
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.ejb.Remote;
+
+@Remote
+public interface HelloWorldEJBRemote {
+
+	String getGreeting(String name) throws SQLException;
+
+	boolean createUser(UserDTO obj) throws SQLException;
+
+	boolean updateUser(UserDTO obj) throws SQLException;
+
+	List<String> getNames() throws SQLException;
+
+	boolean updateEvent(int id, Date eventStartdate, Date eventEnddate, String eventVenue, String eventDescription,
+			int eventOrganiserid, String adrAdress, int adrPostcode, String adrCity, String adrCountry)
+			throws SQLException;
+
+	
+}

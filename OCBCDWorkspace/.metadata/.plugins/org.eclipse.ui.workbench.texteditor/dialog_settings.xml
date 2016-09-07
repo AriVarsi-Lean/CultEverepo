@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="//@Override" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="@Override"/>
+			<item value="//@Override"/>
+			<item value=";"/>
+			<item value=","/>
+			<item value="obj."/>
+			<item value="me2) {"/>
+		</list>
+		<list key="replacehistory">
+			<item value="//@Override"/>
+			<item value="//try {&#x0A;&#x09;&#x09;&#x09;//getting the values from set named parameters in the jsp page.&#x0A;&#x09;&#x09;&#x09;String username = request.getParameter(&quot;username&quot;);&#x0A;&#x09;&#x09;&#x09;String password = request.getParameter(&quot;password&quot;);&#x0A;&#x09;&#x09;&#x09;int age = Integer.parseInt(request.getParameter(&quot;age&quot;));&#x0A;&#x09;&#x09;&#x09;String name = request.getParameter(&quot;name&quot;);&#x0A;&#x09;&#x09;&#x09;String surname = request.getParameter(&quot;surname&quot;);&#x0A;&#x09;&#x09;&#x09;&#x0A;&#x09;&#x09;&#x09;InitialContext initialContext = new InitialContext();&#x0A;&#x09;&#x09;&#x09;HelloWorldEJBRemote remote =  (HelloWorldEJBRemote) initialContext.lookup(&quot;HelloWorldEJB&quot;);&#x0A;&#x09;&#x09;&#x09;///UserDAORemote&#x0A;&#x09;&#x09;&#x09;//UserDAORemote remote =  (UserDAORemote) initialContext.lookup(&quot;UserDAO&quot;);&#x0A;&#x09;&#x09;&#x09;if(remote.createUser(new UserDTO(username, password, age, name, surname))){&#x0A;&#x09;&#x09;&#x09;&#x09;&#x0A;&#x09;&#x09;&#x09;&#x09;request.setAttribute(&quot;createUser&quot;, &quot;The insert was successful.&quot;);&#x0A;&#x09;&#x09;&#x09;};&#x0A;&#x09;&#x09;&#x09;&#x0A;&#x09;&#x09;&#x0A;&#x09;&#x09;&#x09;&#x0A;&#x09;&#x09;&#x09;request.getRequestDispatcher(&quot;/helloworld/createUser.jsp&quot;).include(request, response);&#x0A;&#x09;&#x09;}catch(Exception e){&#x0A;&#x09;&#x09;&#x09;logger.error(&quot;Unexpected failure&quot;, e);&#x0A;&#x09;&#x09;&#x09;e.printStackTrace();//Not good"/>
+			<item value="@Override"/>
+			<item value="; private"/>
+			<item value=";"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="322" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="425" key="DIALOG_HEIGHT"/>
+		<item value="259" key="DIALOG_Y_ORIGIN"/>
+		<item value="816" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>
