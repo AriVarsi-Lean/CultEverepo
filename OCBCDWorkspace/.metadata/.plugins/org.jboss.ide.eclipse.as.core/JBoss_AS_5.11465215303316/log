@@ -4979,3 +4979,6 @@ Caused by: java.rmi.NoSuchObjectException: no such object in table
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 17:35:51.659
 !MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 17:48:50.792
+!MESSAGE Server processes have been terminated.
