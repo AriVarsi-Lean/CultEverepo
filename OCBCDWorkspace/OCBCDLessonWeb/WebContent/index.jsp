@@ -257,13 +257,19 @@
                 <h2 class="page-header">Service List</h2>
             </div>
             <div class="col-md-4">
-                <div class=home-cell>
-                    <a href="http://www.Cultural Crew.co.za/search-jobs-new/">
-                        <img src="images/jobs-01.png" class=home-icons>
-                        <span class=home-icons-text>Search Jobs</span>
-                    </a>
+              
+				 <div class="media">
+                    <div class="pull-left">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-bank fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">The San in detail</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                    </div>
                 </div>
-
                 <div class=home-cell>
                     <a href="UploadFile1.jsp">
                         <img src="images/upload-01.png" class=home-icons>
@@ -274,16 +280,11 @@
                 <div class=home-cell>
                     <a href="http://www.Cultural Crew.co.za/job-seekers/referralprogramme/">
                         <img src="images/refer-01.png" class=home-icons>
-                        <span class=home-icons-text>Refer a Developer</span>
+                        <span class=home-icons-text>Refer an Organiser</span>
                     </a>
                 </div>
 
-                <div class=home-cell>
-                    <a href="http://www.Cultural Crew.co.za/clients/top-candidates-2/">
-                        <img src="images/top-candidates-01.png" class=home-icons>
-                        <span class=home-icons-text>Top Candidates</span>
-                    </a>
-                </div>
+               
             </div>
           
             <div class="col-md-4">
@@ -295,7 +296,7 @@
                         </span>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Service Four</h4>
+                        <h4 class="media-heading">Scout Events</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
                     </div>
                 </div>
@@ -307,22 +308,11 @@
                         </span>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Service Five</h4>
+                        <h4 class="media-heading">Learn Namibian Cultures</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
                     </div>
                 </div>
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-bank fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Service Six</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
+               
             </div>
 
 

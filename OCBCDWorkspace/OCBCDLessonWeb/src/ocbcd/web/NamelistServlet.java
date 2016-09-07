@@ -41,7 +41,7 @@ public class NamelistServlet extends HttpServlet {
 			
 			request.setAttribute("names1", nameList);
 			
-			request.getRequestDispatcher("/helloworld/userlist.jsp").include(request, response);
+			request.getRequestDispatcher("/userlist.jsp").forward(request, response);//.include(request, response);
 		}catch(Exception e){
 			logger.error("Unexpected failure", e);
 			e.printStackTrace();//Not good practice Must use a proper logger

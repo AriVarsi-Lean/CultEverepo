@@ -45,7 +45,7 @@ public class UpdateUserEJBServlet extends HttpServlet {
 			
 		
 			
-			request.getRequestDispatcher("/helloworld/updateUser.jsp").include(request, response);
+			request.getRequestDispatcher("/updateUser.jsp").include(request, response);
 		}catch(Exception e){
 			logger.error("Unexpected failure", e);
 			e.printStackTrace();//Not good practice Must use a proper logger

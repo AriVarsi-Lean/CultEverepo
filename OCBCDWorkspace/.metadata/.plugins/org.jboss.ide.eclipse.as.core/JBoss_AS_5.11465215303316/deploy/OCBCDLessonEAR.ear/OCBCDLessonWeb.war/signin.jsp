@@ -135,8 +135,9 @@
                             <!--JSTL not playing nicely. If you can figure out why the line below does not work let me know.-->				
 						<!--  c:if test='{$!empty greeting}'-->				
 							 <c:if test='<%=request.getAttribute("signin")!= null && !"".equals(request.getAttribute("signin")) %>'>
-							  <label>Success message:</label>
-							 $("#mydiv").addClass("disabledbutton");
+							     <script>
+							     $("#mydiv").addClass("disabledbutton");
+							     </script> 
 							      <p class="help-block"><font color="red"><c:out value="${signin}" /></font></p>
 							</c:if>	
                             

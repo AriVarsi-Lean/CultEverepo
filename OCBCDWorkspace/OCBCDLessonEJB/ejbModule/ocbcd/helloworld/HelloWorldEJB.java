@@ -49,10 +49,12 @@ public  class HelloWorldEJB implements HelloWorldEJBRemote {
 	   		 if(prepareStatement != null) prepareStatement.close();
 	   		 if(connection != null) connection.close();
 	   	 }
-	   	 
+	   	 if(names.get(0) == null)
+	   	 {	   	
+	   		return "no names";
+	   	 }
 	   	 return  names.get(0);
- 
-	 
+	   	
 
 	}
 	
@@ -64,7 +66,7 @@ public  class HelloWorldEJB implements HelloWorldEJBRemote {
 	   			 
 	   	 try {
 	   		 connection = dataSource.getConnection();
-	   		 prepareStatement = connection.prepareStatement("INSERT INTO ocbcd.user (username, password, age, name, surname ) VALUES (?,?,?,?,?)");
+	   		 prepareStatement = connection.prepareStatement("INSERT INTO ocbcd.user (username, password, age, name, surname ) VALUES (?,?,?,?,?);");
 	   		 
 	   		 prepareStatement.setString(1, obj.getUsername());
 	   		 prepareStatement.setString(2, obj.getPassword());
@@ -311,15 +313,16 @@ String adrAdress,int adrPostcode,String adrCity,String adrCountry) throws SQLExc
 	   						 + " event.description as description, event.organiserid as organiserID,"+
 							"adr.adress as Adress, adr.postcode as postCode, ar.city as City, adr.country as Country,"
 									+ " users.name as uploaderName, users.surname as uploaderSurname, users.role as uploaderRole, users.email as uploaderEmail FROM ocbcd.event as  event"
-							 +" join ocbcd.adress as adr  on adr.id = event.adressid  join ocbcd.users as users on users.id = event.organiserid ");
+							 +" join ocbcd.adress as adr  on adr.id = event.adressid  join ocbcd.users as users on users.id = event.organiserid; ");
 	                          // prepareStatement.//setString(1, name);*/
 	   		 resultSet = prepareStatement.executeQuery();
 	   		 
-	   		 Models events = new Models();
+	   		
 	   		 names = new ArrayList<Models>();
 	   		 
 	   			while(resultSet.next())
 	   			 {
+	   			 Models events = new Models();
 	   				events.setAdrCity(resultSet.getString("eventID"));
 	   				events.setEventStartdate(resultSet.getDate("startDate"));
 	   				events.setEventEnddate(resultSet.getDate("EndDate"));

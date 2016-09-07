@@ -56,7 +56,7 @@ public class EventServlet extends HttpServlet {
 				
 				if(remote.createEvent(startDate, endDate, Venue, Description, 21, Adress, postCode, City, Country)){
 					
-					request.setAttribute("createUser", "The insert was successful.");
+					request.setAttribute("createEvent", "The insert was successful.");
 				};
 				
 			

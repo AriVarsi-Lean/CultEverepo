@@ -25,10 +25,13 @@ public class HelloWorldEJBServlet extends HttpServlet {
 			HelloWorldEJBRemote remote =  (HelloWorldEJBRemote) initialContext.lookup("HelloWorldEJB");
 			
 			String greeting = remote.getGreeting(name);
-			
+			if(greeting == "no names"){
+				request.setAttribute("signin", "try again  , Your   sign in was not successful");	
+			}
+			else{
 			request.setAttribute("greeting", greeting);
 			request.setAttribute("signin", "Welcome , You are signed in");
-			
+			}
 			request.getRequestDispatcher("/signin.jsp").include(request, response);
 		}catch(Exception e){
 			logger.error("Unexpected failure", e);

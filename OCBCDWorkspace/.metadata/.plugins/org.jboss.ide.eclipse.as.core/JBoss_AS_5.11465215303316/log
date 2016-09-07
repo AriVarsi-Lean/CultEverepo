@@ -2931,3 +2931,1994 @@ Caused by: java.net.ConnectException: Connection refused
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 12:55:27.260
 !MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 12:59:53.465
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 13:00:20.593
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 13:00:52.994
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 13:07:17.989
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 13:08:42.395
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 13:08:47.579
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 13:09:33.713
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 13:10:07.283
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 13:14:11.632
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 13:14:29.964
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 13:15:05.249
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-09-07 13:21:53.296
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:53.296
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:53.296
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-09-07 13:21:53.296
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-09-07 13:21:53.813
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:53.820
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:53.820
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-09-07 13:21:53.821
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-09-07 13:21:54.341
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor300.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:54.341
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor300.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:54.342
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor300.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-09-07 13:21:54.342
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor300.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-09-07 13:21:54.852
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor300.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:54.852
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor300.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:54.852
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor300.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-09-07 13:21:54.852
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.GeneratedMethodAccessor300.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-09-07 13:21:55.372
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.CommunicationException [Root exception is java.rmi.NoSuchObjectException: no such object in table]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:839)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	... 15 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:55.372
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.CommunicationException [Root exception is java.rmi.NoSuchObjectException: no such object in table]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:839)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	... 15 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:55.372
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.CommunicationException [Root exception is java.rmi.NoSuchObjectException: no such object in table]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:839)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	... 15 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-09-07 13:21:55.372
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+javax.naming.CommunicationException [Root exception is java.rmi.NoSuchObjectException: no such object in table]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:839)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	... 15 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-09-07 13:21:55.877
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:1099 and discovery failed with error: java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]]
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1763)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:693)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:335)
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1734)
+	... 16 more
+Caused by: javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:305)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:97)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:82)
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:301)
+	... 17 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:55.878
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:1099 and discovery failed with error: java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]]
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1763)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:693)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:335)
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1734)
+	... 16 more
+Caused by: javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:305)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:97)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:82)
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:301)
+	... 17 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:55.878
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:1099 and discovery failed with error: java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]]
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1763)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:693)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:335)
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1734)
+	... 16 more
+Caused by: javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:305)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:97)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:82)
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:301)
+	... 17 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-09-07 13:21:55.878
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:1099 and discovery failed with error: java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]]
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1763)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:693)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:335)
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1734)
+	... 16 more
+Caused by: javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:305)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:97)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:82)
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:301)
+	... 17 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-09-07 13:21:56.380
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:1099 and discovery failed with error: java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]]
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1763)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:693)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:335)
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1734)
+	... 16 more
+Caused by: javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:305)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:97)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:82)
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:301)
+	... 17 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:56.383
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:1099 and discovery failed with error: java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]]
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1763)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:693)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:335)
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1734)
+	... 16 more
+Caused by: javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:305)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:97)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:82)
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:301)
+	... 17 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:56.384
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:1099 and discovery failed with error: java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]]
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1763)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:693)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:335)
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1734)
+	... 16 more
+Caused by: javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:305)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:97)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:82)
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:301)
+	... 17 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-09-07 13:21:56.384
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:1099 and discovery failed with error: java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]]
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1763)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:693)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:335)
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1734)
+	... 16 more
+Caused by: javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:305)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:97)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:82)
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:301)
+	... 17 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-09-07 13:21:56.890
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:1099 and discovery failed with error: java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]]
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1763)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:693)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:335)
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1734)
+	... 16 more
+Caused by: javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:305)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:97)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:82)
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:301)
+	... 17 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:56.891
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:1099 and discovery failed with error: java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]]
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1763)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:693)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:335)
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1734)
+	... 16 more
+Caused by: javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:305)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:97)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:82)
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:301)
+	... 17 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 13:21:56.891
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:1099 and discovery failed with error: java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]]
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1763)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:693)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:335)
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1734)
+	... 16 more
+Caused by: javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:305)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:97)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:82)
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:301)
+	... 17 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-09-07 13:21:56.891
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+javax.naming.CommunicationException: Could not obtain connection to any of these urls: localhost:1099 and discovery failed with error: java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String [Root exception is javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]]
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1763)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:693)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.CommunicationException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:335)
+	at org.jnp.interfaces.NamingContext.checkRef(NamingContext.java:1734)
+	... 16 more
+Caused by: javax.naming.ServiceUnavailableException: Failed to connect to server localhost/127.0.0.1:1099 [Root exception is java.net.ConnectException: Connection refused]
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:305)
+	... 17 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:97)
+	at org.jnp.interfaces.TimedSocketFactory.createSocket(TimedSocketFactory.java:82)
+	at org.jnp.interfaces.NamingContext.getServer(NamingContext.java:301)
+	... 17 more
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 13:21:56.989
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 13:23:08.505
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 13:23:39.374
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 13:36:36.024
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 13:37:17.414
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 13:37:45.173
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 13:44:46.251
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 13:45:00.896
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 13:45:31.365
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 13:50:11.824
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 13:50:11.899
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 13:50:42.777
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 13:58:00.203
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 13:58:36.572
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 13:59:05.421
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 14:16:19.210
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 14:26:41.382
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 14:27:06.720
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 14:36:13.745
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 14:38:17.960
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 14:38:44.208
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 14:50:55.884
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 14:51:37.435
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 14:51:41.698
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 14:51:48.838
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 14:52:15.993
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 14:57:02.009
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 15:37:31.567
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 15:38:02.512
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 15:43:30.444
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 15:44:46.218
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 15:44:50.507
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 15:44:56.139
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 15:45:22.372
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 15:50:25.235
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 15:58:58.733
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 15:59:27.882
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 16:01:56.393
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 16:02:09.597
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 16:02:46.490
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-09-07 16:07:20.675
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 16:07:20.675
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 16:07:20.675
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-09-07 16:07:20.675
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+javax.naming.NameNotFoundException: invoker not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771)
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779)
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:396)
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:399)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:322)
+	at sun.rmi.transport.Transport$2.run(Transport.java:202)
+	at sun.rmi.transport.Transport$2.run(Transport.java:199)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:198)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:567)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.access$400(TCPTransport.java:619)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:684)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$1.run(TCPTransport.java:681)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:681)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 1107689472 2016-09-07 16:07:21.193
+!MESSAGE JBossTools was unable to resume the JBoss deployment scanner. Your deployment may not be recognized by the server. Please ensure your version of JBoss includes an unsecured JMX adapter.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:36)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	... 6 more
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.CommunicationException [Root exception is java.rmi.NoSuchObjectException: no such object in table]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:839)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	... 15 more
+!SUBENTRY 1 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 16:07:21.193
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:84)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	... 7 more
+Caused by: javax.naming.CommunicationException [Root exception is java.rmi.NoSuchObjectException: no such object in table]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:839)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	... 15 more
+!SUBENTRY 2 org.jboss.ide.eclipse.as.jmx.integration 4 0 2016-09-07 16:07:21.193
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 1
+org.jboss.tools.jmx.core.JMXException: Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:220)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: javax.naming.CommunicationException [Root exception is java.rmi.NoSuchObjectException: no such object in table]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:839)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	... 11 more
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	... 15 more
+!SUBENTRY 3 org.jboss.ide.eclipse.as.core 4 0 2016-09-07 16:07:21.193
+!MESSAGE Error connecting to remote JMX. Please ensure your server is properly configured for JMX access.
+!STACK 0
+javax.naming.CommunicationException [Root exception is java.rmi.NoSuchObjectException: no such object in table]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:839)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.createConnection(JBossServerConnection.java:236)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:202)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:162)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:137)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerConnection.run(JBossServerConnection.java:132)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossJMXConnectionProviderModel.run(JBossJMXConnectionProviderModel.java:81)
+	at org.jboss.ide.eclipse.as.jmx.integration.JBossServerJMXRunner.run(JBossServerJMXRunner.java:33)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.JBossLT6ModuleStateVerifier.getModuleState(JBossLT6ModuleStateVerifier.java:304)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.getModuleState(UpdateModuleStateJob.java:130)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.runWait(UpdateModuleStateJob.java:94)
+	at org.jboss.ide.eclipse.as.core.server.internal.UpdateModuleStateJob.run(UpdateModuleStateJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253)
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162)
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source)
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726)
+	... 15 more
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 16:07:21.666
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 16:07:41.879
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 16:08:17.058
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 16:11:00.165
+!MESSAGE Server processes have been terminated.

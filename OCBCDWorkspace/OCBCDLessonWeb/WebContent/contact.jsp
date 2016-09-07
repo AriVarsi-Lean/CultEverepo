@@ -108,7 +108,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Contact
-                    <small>Subheading</small>
+                    <small>Cultural Crew</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.jsp">Home</a>
@@ -123,22 +123,10 @@
         <div class="row">
             <!-- Map Column -->
             <div class="col-md-8">
-                <!-- Embedded Google Map -->
-               <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
 		<div style='overflow:hidden;height:440px;width:700px;'>
-			<div id='gmap_canvas' style='height:440px;width:700px;'></div>
-				<div><small><a href="http://embedgooglemaps.com">embed google maps</a></small>
-				</div>
-			<div>
-				<small><a href="https://termsofusegenerator.net">terms of use generator</a></small>
-			</div>
-			<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+			<img src="images/culture5.jpg" class="img-responsive">
 		</div>
-		<script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(-26.0586734,28.02048179999997),mapTypeId: google.maps.MapTypeId.TERRAIN};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-26.0586734,28.02048179999997)});infowindow = new google.maps.InfoWindow({content:'<strong>Emerge IT Recruitment</strong><br>No. 4 Anslow Lane, Block A 1st Floor Bryanston South Africa<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
-		</script>
-
-                <!--<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
-                src=""></iframe>-->
+		
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-4">

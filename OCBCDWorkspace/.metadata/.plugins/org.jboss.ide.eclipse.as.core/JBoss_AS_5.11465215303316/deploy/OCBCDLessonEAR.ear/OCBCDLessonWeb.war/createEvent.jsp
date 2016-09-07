@@ -212,9 +212,9 @@
 				
 				<!--JSTL not playing nicely. If you can figure out why the line below does not work let me know.-->				
 				<!--  c:if test='{$!empty greeting}'-->				
-				<c:if test='<%=request.getAttribute("createUser")!= null && !"".equals(request.getAttribute("createUser")) %>'>
+				<c:if test='<%=request.getAttribute("createEvent")!= null && !"".equals(request.getAttribute("createEvent")) %>'>
 					<div class="control-group form-group">
-                        <div class="controls"><font color="red"><c:out value="${createUser}" /></font>
+                        <div class="controls"><font color="red"><c:out value="${createEvent}" /></font>
                         </div>
 					</div>
 					

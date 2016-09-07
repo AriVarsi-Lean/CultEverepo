@@ -24,12 +24,6 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 
@@ -120,9 +114,8 @@
         <!-- /.row -->
 
         <div class="row" >
-        	<form action="/OCBCDLessonWeb/EventListServlet" >	
-        	<jsp:useBean id="name" class="ocbcd.helloworld.Models" />
-				<c:forEach var="events" items="${names1}" varStatus="i">
+        <c:import url="/EventListServlet" />
+				<c:forEach var="events" items="${requestScope.names1}" varStatus="i">
 						
 						
 		            <!-- Events Entries Column -->
@@ -130,27 +123,25 @@
 		                
 		                 <!-- Third Events Post -->
 		                <h2>
-		                    <a href="#">${events.eventVenue}</a>
+		                    <a href="#">${events.getEventVenue}</a>
 		                </h2>
 		                <p class="lead">
 		                    by <a href="index.jsp">Cultural Crew</a>
 		                </p>
-		                <p><i class="fa fa-clock-o"></i> Start Date on ${events.eventStartDate}</p>
-		                 <p><i class="fa fa-clock-o"></i> Ending  Date on ${events.eventEndDate}</p>
+		                <p><i class="fa fa-clock-o"></i> Start Date on ${events.getEventStartdate}</p>
+		                 <p><i class="fa fa-clock-o"></i> Ending  Date on ${events.getEventEnddate}</p>
 		                <hr>
 		                <a href="eventpost.jsp ">
 		                    <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt="">
 		                </a>
 		                <hr>
-		                <p>${events.eventDescription}</p>
-		                <a class="btn btn-primary" href="eventpost.jsp">Read More <i class="fa fa-angle-right"></i></a>
+		                <p>${events.getEventDescription}</p>
+		                <a class="btn btn-primary" href="eventpost.jsp?id=1">Read More <i class="fa fa-angle-right"></i></a>
 		
 		                <hr>
 	                </div>
 	              
 				</c:forEach>
-              </form>
-               
                
         </div>
         <!-- /.row -->
