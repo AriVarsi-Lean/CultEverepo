@@ -116,25 +116,18 @@
                             </ol>
 
                     <div class="col-md-6">
-                        <img src="images/team.jpg" class="img-responsive">
+                        <img src="images/culture9.jpg" class="img-responsive">
                     </div>
                     <div class="col-md-6">
-                        <p class="text-muted">Cultural Crew IT Recruitment is a specialist niche agency working in specific
-                        technology verticals. Recruiting in our specialised fields, we make strategic
-                        selections for both client and candidate using our extensive attention,
+                        <p class="text-muted">Cultural Crew  is a specialist niche agency working in specific
+                        cultural verticals. Organising  in our specialised fields, we make strategic
+                        selections for both Organisers  and event venues using our extensive attention,
                         knowledge and experience to create best-fit placements. As the antithesis
                         of an average recruitment company, we provide our clients and candidates
                         with a contextual understanding of the market, allowing for professional
-                        and personal choices. <br> We are not trying to fit square pegs in round holes but rather providing
-                        a holistic service, matching people, personalities and technical skills
-                        for a win situation for all parties. An established player in the IT recruitment
-                        space in SA with over 14 years experience, our success lies in understanding
-                        the strategic thought that accompanies a new job or a new employee and
-                        using our experience and understanding of the market to help ease the decision
-                        making process. Our strengths lie in our high service orientation and the
-                        relationships that we build â we believe strongly in building options for
-                        our candidates and clients rather than merely placing numbers. Choice through
-                        Options. You choose the right one for you.</p>
+                        and personal choices. <br> We are not trying to change the appeal of the past but rather taking 
+                        a holistic service, matching people, highlighting on where we came from.
+                        for a win situation for all parties. </p>
                     </div>
                     </div>
                 </div>
@@ -147,21 +140,21 @@
                 <div class="container">
                     <div class="row">
                     <div class="col-md-6">
-                        <p class="text-muted">Starting off as a small 2-man recruiting agency 14 years ago,Cultural Crew
-                        IT Recruitment has grown to a formidable force in the IT Recruitment Industry
-                        in South Africa today. Based in Bryanston and employing over 23 people,
-                       Cultural Crew continues to grow their unique model of IT recruitment with 7 specialist
-                        silos being fully developed and functional with new IT markets constantly
+                        <p class="text-muted">Starting off as a small 2-man Events  agency 14 years ago,Cultural Crew
+                         has grown to a formidable force in the tourism and culture Industry
+                        in Namibia today. Based in Windhoek and employing over 23 people,
+                       Cultural Crew continues to grow their unique model ofOrganising events with 7 specialist
+                        silos being fully developed and functional with local ethnic groups constantly
                         being evaluated and considered as potential growth areas. With a focus
-                        on being a service agency in addition to a recruiting solution,Cultural Crew
+                        on being a service agency in addition to a Events solutions,Cultural Crew
                         offers strategic and targeted placements.</p>
                     </div>
                     <div class="col-md-6">
-                        <p class="text-muted"> As a Level 4 BEE company, we
+                        <p class="text-muted"> As  proudly Namibian, we
                         pride ourselves on our integrity, service orientation and knowledge application
-                        to build the best options for clients and candidates alike. Everything
+                        to build the best options for clients and Organisers alike. Everything
                         we do is measured, focused with constant prioritising for the best candidate
-                        and client experience and placement.<br>
+                        and Organisers experience and placement.<br>
                     A core belief for the team is that our role is to give people options â whether Client or Candidate, we facilitate
                         informed choice. We are not trying to fit square pegs in round holes but
                         rather providing a holistic service, matching people, personalities and

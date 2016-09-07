@@ -88,7 +88,11 @@
                         <a href="events.jsp">Upcoming Events</a>
                     </li>
                     <li>
-                        <a href="signin.jsp">Sign in </a>
+                        <a href="signin.jsp">	
+                        <c:if test='<%=request.getAttribute("greeting")!= null && !"".equals(request.getAttribute("greeting")) %>'>
+					<tr><td><font color="red"><c:out value="${greeting}" /></font></td></tr>
+				</c:if>	
+				</a>
                     </li>
 
                 </ul>
@@ -121,7 +125,7 @@
         <div class="row" >
 		<form action="/OCBCDLessonWeb/HelloWorldEJBServlet">
 		
-			<table align="center">
+			<table style="align:center;">
 				
 				<c:if test="{$not empty requestScope.error}">
 					<tr><td>Unexpected Error1 : <c:out value="${requestScope.error}" /></td></tr>
@@ -129,9 +133,9 @@
 				
 				<!--JSTL not playing nicely. If you can figure out why the line below does not work let me know.-->				
 				<!--  c:if test='{$!empty greeting}'-->				
-				<c:if test='<%=request.getAttribute("greeting")!= null && !"".equals(request.getAttribute("greeting")) %>'>
-					<tr><td><font color="red"><c:out value="${greeting}" /></font></td></tr>
-				</c:if>				
+					 <c:if test='<%=request.getAttribute("signin")!= null && !"".equals(request.getAttribute("signin")) %>'>
+					<tr><td><font color="red"><c:out value="${signin}" /></font></td></tr>
+				</c:if>		
 				
 				<tr><td>Submit your name for a custom greeting</td></tr>
 				<tr><td>Your name: <input type="text" name="name"></td></tr>
@@ -139,64 +143,7 @@
 			</table>
 		</form>  </div>
 
-            <!-- Events Sidebar Widgets Column -->
-            <div class="col-md-4">
-
-                <!-- Events Search Well -->
-                <div class="well">
-                    <h4>Search on Events </h4>
-                    <div class="input-group">
-                        <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-                        </span>
-                    </div>
-                    <!-- /.input-group -->
-                </div>
-
-                <!-- Events Categories Well -->
-                <div class="well">
-                    <h4>Events Categories</h4>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Cultural</a>
-                                </li>
-                                <li><a href="#">research for tribes</a>
-                                </li>
-                                <li><a href="#">Getting the right directions</a>
-                                </li>
-                                <li><a href="#">How to be a top Organiser</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.col-lg-6 -->
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Understanding your tribe</a>
-                                </li>
-                                <li><a href="#">Keeping informed with Modern trends</a>
-                                </li>
-                                <li><a href="#">Staying relevant to your past  whilest Moving ahead</a>
-                                </li>
-                                <li><a href="#">How we can help you.?</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.col-lg-6 -->
-                    </div>
-                    <!-- /.row -->
-                </div>
-
-                <!-- Side Widget Well -->
-                <div class="well">
-                    <h4>Keep yourself Informed withCultural Crew</h4>
-                    <p>Our aim is to link the best candidate and Employee together, 
-                        However family means together and together  means no one gets left out.
-                         Here we get to discuss on how to improve your skill and presentation whilest you go through the process 
-                         of job hunting.</p>
-                </div>
-
+           
             </div>
 
         </div>

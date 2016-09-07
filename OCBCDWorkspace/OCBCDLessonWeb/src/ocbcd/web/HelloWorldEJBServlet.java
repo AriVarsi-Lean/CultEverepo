@@ -27,6 +27,7 @@ public class HelloWorldEJBServlet extends HttpServlet {
 			String greeting = remote.getGreeting(name);
 			
 			request.setAttribute("greeting", greeting);
+			request.setAttribute("signin", "Welcome , You are signed in");
 			
 			request.getRequestDispatcher("/helloworld/helloworld.jsp").include(request, response);
 		}catch(Exception e){

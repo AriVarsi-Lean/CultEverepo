@@ -87,9 +87,16 @@
                     <li>
                         <a href="events.jsp">Upcoming Events</a>
                     </li>
-                    <li>
+                    <li name = "">
                         <a href="signin.jsp">Sign in </a>
                     </li>
+                    <c:if test='<%=request.getAttribute("greeting")!= null && !"".equals(request.getAttribute("greeting")) %>'>
+                    <li>
+                        <a href="signin.jsp">
+                        <font color="red"><c:out value="${greeting}" /> : Sign out</font>
+                        </a>
+                    </li>
+				</c:if>	
 
                 </ul>
             </div>
@@ -102,50 +109,55 @@
 
       <div>
                             
-                    <!-- Include the Google CSS package -->
-                  
-                    
-                    <!-- You can also include your own CSS styles -->
-                    <style>
-                    form { margin: 40px auto; }
-                    input { display:inline-block; margin: 20px; }
-                    </style>
-                    
-                    <script>
-                            // The function will be called after the form is submitted
-                            function uploadFile() {
-                                document.getElementById('uploadFile').value = "Uploading File..";
-                                google.script.run
-                                .withSuccessHandler(fileUploaded)
-                                .uploadFiles(document.getElementById("labnol"));
-                                return false;
-                            }
+           <!-- Include the Google CSS package -->
+         	<form action="/OCBCDLessonWeb/HelloWorldEJBServlet">
+                    <div class="control-group form-group">
+                        <div class="controls">
+                        <c:if test="{$not empty requestScope.error}">
+                            <p class="help-block">Unexpected Error1 : <c:out value="${requestScope.error}" /></p>
+                            </c:if>
+                        </div>
+                    </div>
+				
+					
+				
+				<div class="control-group form-group">
+                        <div class="controls">
+                            <label>Success message:</label>
+                            <!--JSTL not playing nicely. If you can figure out why the line below does not work let me know.-->				
+						<!--  c:if test='{$!empty greeting}'-->				
+							 <c:if test='<%=request.getAttribute("signin")!= null && !"".equals(request.getAttribute("signin")) %>'>
+							      <p class="help-block"><font color="red"><c:out value="${signin}" /></font></p>
+							</c:if>	
                             
-                            // This function will be called after the Google Script has executed
-                            function fileUploaded(status) {
-                                document.getElementById('labnol').style.display = 'none';
-                                document.getElementById('output').innerHTML = status;
-                            }
-                    
-                    </script>
-                    
-                    <!-- This is the HTML form -->
-                    <form id="labnol">
-                    
+                        </div>
+                    </div>
+					
+				
+				<h2>Submit your name and password for authentification</h2>
+				
                     <!-- Text input fields -->
-                    <input type="text" name="myName" placeholder="Your name..">
-                    <input type="email" name="myEmail" placeholder="Your email..">
+                     <div class="control-group form-group">
+                        <div class="controls">
+                        Your name:    <input type="text" name="name" placeholder="Your name.."> 
+                        </div>
+                    </div>
+                 <!-- Text input fields -->
+                     <div class="control-group form-group">
+                        <div class="controls">
+                        	Your password:   <input type="password" name="password" placeholder="Your password"> 
+                        </div>
+                    </div>
+				 <!-- Text input fields -->
+                     <div class="control-group form-group">
+                        <div class="controls">
+							<input type="submit">
+						 </div>
+                    </div>
+			
+		</form>
                     
-                    <!-- File input filed -->
-                    <input type="file" name="myFile">
-                    
-                    <!-- The submit button. It calls the server side function uploadfiles() on click -->
-                    <input type="submit" id="uploadFile" value="Upload File"  onclick="this.value='Uploading..';uploadFile();">
-                    
-                    </form>
-                    
-                    <!-- Here the results of the form submission will be displayed -->
-                    <div id="output"></div>
+                   
                     
       </div>
 
@@ -173,14 +185,13 @@
 						
                    
                     <p class="text-right">
-                         <<a href=""> Website by  &copy;Erasi Kasa</a>
+                         <a href=""> Website by  &copy;Erasi Kasa</a>
                     </p>
                 </div>
             </div>
             </div>
         </footer>
 
-    </div>
     <!-- /.container -->
     <script>
         $(document).ready(function() {

@@ -52,11 +52,11 @@ try {
 			HelloWorldEJBRemote remote =  (HelloWorldEJBRemote) initialContext.lookup("HelloWorldEJB");
 			
 			
-			List<Models> nameList = remote.getEvents();
+			List<Models> eventsList = remote.getEvents();
 			
-			request.setAttribute("names1", nameList);
+			request.setAttribute("names1", eventsList);
 			
-			request.getRequestDispatcher("/helloworld/userlist.jsp");//.include(request, response);
+			request.getRequestDispatcher("/helloworld/events.jsp").include(request, response);
 		}catch(Exception e){
 			logger.error("Unexpected failure", e);
 			e.printStackTrace();//Not good practice Must use a proper logger

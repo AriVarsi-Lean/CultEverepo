@@ -1,0 +1,67 @@
+package ocbcd.web;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.naming.InitialContext;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import ocbcd.helloworld.HelloWorldEJBRemote;
+import ocbcd.helloworld.Models;
+
+/**
+ * Servlet implementation class EventListServlet
+ */
+public class EventListServlet extends HttpServlet {
+	private static final Log logger = LogFactory.getLog(NamelistServlet.class);
+
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public EventListServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//Calls doPost
+		doPost(request, response);
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// This draws result of Events from EJBB
+		
+try {
+			
+			
+			InitialContext initialContext = new InitialContext();
+			HelloWorldEJBRemote remote =  (HelloWorldEJBRemote) initialContext.lookup("HelloWorldEJB");
+			
+			
+			List<Models> nameList = remote.getEvents();
+			
+			request.setAttribute("names1", nameList);
+			
+			request.getRequestDispatcher("/helloworld/userlist.jsp");//.include(request, response);
+		}catch(Exception e){
+			logger.error("Unexpected failure", e);
+			e.printStackTrace();//Not good practice Must use a proper logger
+			request.setAttribute("error", e.getMessage());
+		}
+	}
+
+}

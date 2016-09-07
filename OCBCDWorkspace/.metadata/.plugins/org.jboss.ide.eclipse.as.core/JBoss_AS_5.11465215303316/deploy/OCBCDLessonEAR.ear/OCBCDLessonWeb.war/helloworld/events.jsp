@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ page import="ocbcd.helloworld.Models"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <!DOCTYPE html>
 <html lang="en">
@@ -120,111 +121,40 @@
 
         <div class="row" >
         	<form action="/OCBCDLessonWeb/EventListServlet" >	
-			<c:forEach var="jobs" items="${names1}" varStatus="i">
-					
-					
-	            <!-- Events Entries Column -->
-	            <div class="col-md-8">
-	                
-	                 <!-- Third Events Post -->
-	                <h2>
-	                    <a href="#">${jobs.eventVenue}</a>
-	                </h2>
-	                <p class="lead">
-	                    by <a href="index.jsp">Cultural Crew</a>
-	                </p>
-	                <p><i class="fa fa-clock-o"></i> Start Date on ${jobs.eventStartDate}</p>
-	                 <p><i class="fa fa-clock-o"></i> Ending  Date on ${jobs.eventEndDate}</p>
-	                <hr>
-	                <a href="eventpost.jsp ">
-	                    <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt="">
-	                </a>
-	                <hr>
-	                <p>#{jobs.eventDescription}</p>
-	                <a class="btn btn-primary" href="eventpost.jsp">Read More <i class="fa fa-angle-right"></i></a>
-	
-	                <hr>
-                </div>
-                 
-			</c:forEach>
-
+        	<jsp:useBean id="name" class="ocbcd.helloworld.Models" />
+				<c:forEach var="events" items="${names1}" varStatus="i">
+						
+						
+		            <!-- Events Entries Column -->
+		            <div class="col-md-8">
+		                
+		                 <!-- Third Events Post -->
+		                <h2>
+		                    <a href="#">${events.eventVenue}</a>
+		                </h2>
+		                <p class="lead">
+		                    by <a href="index.jsp">Cultural Crew</a>
+		                </p>
+		                <p><i class="fa fa-clock-o"></i> Start Date on ${events.eventStartDate}</p>
+		                 <p><i class="fa fa-clock-o"></i> Ending  Date on ${events.eventEndDate}</p>
+		                <hr>
+		                <a href="eventpost.jsp ">
+		                    <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt="">
+		                </a>
+		                <hr>
+		                <p>${events.eventDescription}</p>
+		                <a class="btn btn-primary" href="eventpost.jsp">Read More <i class="fa fa-angle-right"></i></a>
+		
+		                <hr>
+	                </div>
+	              
+				</c:forEach>
               </form>
                
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="previous">
-                        <a href="#">&larr; Older</a>
-                    </li>
-                    <li class="next">
-                        <a href="#">Newer &rarr;</a>
-                    </li>
-                </ul>
-
-            </div>
-
-            <!-- Events Sidebar Widgets Column -->
-            <div class="col-md-4">
-
-                <!-- Events Search Well -->
-                <div class="well">
-                    <h4>Search on Events </h4>
-                    <div class="input-group">
-                        <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-                        </span>
-                    </div>
-                    <!-- /.input-group -->
-                </div>
-
-                <!-- Events Categories Well -->
-                <div class="well">
-                    <h4>Events Categories</h4>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Cultural</a>
-                                </li>
-                                <li><a href="#">research for tribes</a>
-                                </li>
-                                <li><a href="#">Getting the right directions</a>
-                                </li>
-                                <li><a href="#">How to be a top Organiser</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.col-lg-6 -->
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Understanding your tribe</a>
-                                </li>
-                                <li><a href="#">Keeping informed with Modern trends</a>
-                                </li>
-                                <li><a href="#">Staying relevant to your past  whilest Moving ahead</a>
-                                </li>
-                                <li><a href="#">How we can help you.?</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.col-lg-6 -->
-                    </div>
-                    <!-- /.row -->
-                </div>
-
-                <!-- Side Widget Well -->
-                <div class="well">
-                    <h4>Keep yourself Informed withCultural Crew</h4>
-                    <p>Our aim is to link the best candidate and Employee together, 
-                        However family means together and together  means no one gets left out.
-                         Here we get to discuss on how to improve your skill and presentation whilest you go through the process 
-                         of job hunting.</p>
-                </div>
-
-            </div>
-
+               
         </div>
         <!-- /.row -->
-
+</div>
         <hr>
 
         <!-- Footer -->

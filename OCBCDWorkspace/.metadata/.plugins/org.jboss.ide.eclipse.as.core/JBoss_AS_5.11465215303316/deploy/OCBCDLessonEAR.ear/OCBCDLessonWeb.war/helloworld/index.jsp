@@ -13,8 +13,8 @@
     <meta name="author" content="">
 
     <title>Emerge -Home</title>
-    <link rel="icon" type="image/png" href="images/emergeicon.png" />
-    <!-- Bootstrap Core CSS -->
+    <!--  <link rel="icon" type="image/png" href="images/emergeicon.png" />
+   Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
@@ -285,44 +285,7 @@
                     </a>
                 </div>
             </div>
-            <!--
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Service One</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Service Two</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
-                <div class="media">
-                    <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-support fa-stack-1x fa-inverse"></i>
-                        </span> 
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Service Three</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-                    </div>
-                </div>
-            </div-->
+          
             <div class="col-md-4">
                 <div class="media">
                     <div class="pull-left">
@@ -383,25 +346,25 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <ul class="list-unstyled">
-                                <li><a href="#">C#/ .Net Jobs</a>
+                                <li><a href="#">Culture expo</a>
                                 </li>
-                                <li><a href="#">Java/ J2EE jobs</a>
+                                <li><a href="#">Seasonal Gatherings</a>
                                 </li>
-                                <li><a href="#">Mobile jobs</a>
+                                <li><a href="#">Oshiwambu Custom</a>
                                 </li>
-                                <li><a href="#">Business Analysis</a>
+                                <li><a href="#">Herero customs</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <ul class="list-unstyled">
-                                <li><a href="#">Oracle Jobs</a>
+                                <li><a href="#">Damara way</a>
                                 </li>
-                                <li><a href="#">Business intelligence</a>
+                                <li><a href="#">Nama People </a>
                                 </li>
-                                <li><a href="#">IT Sales jobs</a>
+                                <li><a href="#">The San</a>
                                 </li>
-                                <li><a href="#">Other Jobs</a>
+                                <li><a href="#">Other cultures</a>
                                 </li>
                             </ul>
                         </div>
@@ -422,12 +385,12 @@
                         <div class="col-md-6 widget">
                             <div class="widget-body">
                                 <p class="simplenav">
-                                    <a href="#">Home</a> |
-                                    <a href="">Jobs</a> |
-                                    <a href="">Top Candidates</a> |
-                                    <a href="">Contact us</a> |
-                                    <b><a href="">Sign up/Sign in</a></b>
-                                </p>
+                                  <a href="#">Home</a> | 
+								<a href="">Events</a> |
+								<a href="">Culture groups</a> |
+								<a href="">Contact us</a> |
+								<b><a href="">Sign up/Sign in</a></b>
+							 </p>
                             </div>
                         </div>
 

@@ -144,14 +144,14 @@
             <div class="col-md-4">
                 <h3>Contact Details</h3>
                 <p>
-                    Physical Address:<br>No. 4 Anslow Lane, Block A<br>1st Floor<br>Bryanston<br>South Africa<br><br>
+                    Physical Address:<br>No. 4 Anslow Lane, Block A<br>1st Floor<br>Windhoek West<br>Namibia<br><br>
 
-		    Postal Address:<br>P.O. Box 71749<br>Bryanston<br>2021<br>South Africa<br><br>
+		    Postal Address:<br>P.O. Box 71749<br>Windhoek West<br>2021<br>Namibia<br><br>
                 </p>
                 <p><i class="fa fa-phone"></i> 
-                    <abbr title="Phone">Phone</abbr>: (+27) 11 463 3633</p>
+                    <abbr title="Phone">Phone</abbr>: (+264) 11 463 3633</p>
                 <p><i class="fa fa-envelope-o"></i> 
-                    <abbr title="Email">E-mail</abbr>: <a href="mailto:name@example.com">info@Cultural Crew.co.za</a><br>
+                    <abbr title="Email">E-mail</abbr>: <a href="mailto:name@example.com">info@CulturalCrew.com.na</a><br>
                 </p>
                 <p><i class="fa fa-clock-o"></i> 
                     <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
