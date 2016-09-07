@@ -29,7 +29,7 @@ public class HelloWorldEJBServlet extends HttpServlet {
 			request.setAttribute("greeting", greeting);
 			request.setAttribute("signin", "Welcome , You are signed in");
 			
-			request.getRequestDispatcher("/helloworld/helloworld.jsp").include(request, response);
+			request.getRequestDispatcher("/helloworld/signin.jsp").include(request, response);
 		}catch(Exception e){
 			logger.error("Unexpected failure", e);
 			e.printStackTrace();//Not good practice Must use a proper logger

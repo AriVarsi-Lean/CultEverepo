@@ -23,12 +23,17 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons.css">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+   <style>
+    .ThisLink{
+           pointer-events: none;
+           cursor: default;
+    }
+	.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+		}
+      </style>
+
 </head>
 
 <body>
@@ -87,10 +92,13 @@
                     <li>
                         <a href="events.jsp">Upcoming Events</a>
                     </li>
-                    <li name = "">
-                        <a href="signin.jsp">Sign in </a>
+                    <li id="elemID">
+                        <a href="signin.jsp" id='elemID'>Sign in </a>
                     </li>
                     <c:if test='<%=request.getAttribute("greeting")!= null && !"".equals(request.getAttribute("greeting")) %>'>
+                    <script>
+					    $('#elemID').addClass('ThisLink');
+					 </script>
                     <li>
                         <a href="signin.jsp">
                         <font color="red"><c:out value="${greeting}" /> : Sign out</font>
@@ -123,10 +131,12 @@
 				
 				<div class="control-group form-group">
                         <div class="controls">
-                            <label>Success message:</label>
+                           
                             <!--JSTL not playing nicely. If you can figure out why the line below does not work let me know.-->				
 						<!--  c:if test='{$!empty greeting}'-->				
 							 <c:if test='<%=request.getAttribute("signin")!= null && !"".equals(request.getAttribute("signin")) %>'>
+							  <label>Success message:</label>
+							 $("#mydiv").addClass("disabledbutton");
 							      <p class="help-block"><font color="red"><c:out value="${signin}" /></font></p>
 							</c:if>	
                             
@@ -135,7 +145,7 @@
 					
 				
 				<h2>Submit your name and password for authentification</h2>
-				
+				<div id="mydiv">
                     <!-- Text input fields -->
                      <div class="control-group form-group">
                         <div class="controls">
@@ -153,6 +163,8 @@
                         <div class="controls">
 							<input type="submit">
 						 </div>
+                    </div>
+                    
                     </div>
 			
 		</form>

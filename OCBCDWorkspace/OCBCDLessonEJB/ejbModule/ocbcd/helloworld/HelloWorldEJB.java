@@ -50,7 +50,7 @@ public  class HelloWorldEJB implements HelloWorldEJBRemote {
 	   		 if(connection != null) connection.close();
 	   	 }
 	   	 
-	   	 return "Hello " + names.get(0);
+	   	 return  names.get(0);
  
 	 
 

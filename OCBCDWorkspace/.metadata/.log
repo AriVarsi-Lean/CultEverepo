@@ -3719,3 +3719,6 @@ org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementExc
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 16973826 2016-09-07 12:23:32.103
+!MESSAGE The server was shutdown forcefully. All processes were terminated.
