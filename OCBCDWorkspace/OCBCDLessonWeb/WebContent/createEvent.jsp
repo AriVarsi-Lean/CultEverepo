@@ -161,12 +161,13 @@
                             <input type="textArea" class="form-control" id="adress" name= "adress" required data-validation-required-message="Please enter your  address.">
                         </div>
                     </div>
-                    <div class="container control-group">
+
+                    <div class="container ">
                         <div class='col-md-4'>
-                            <div class="form-group">
+                            <div class="control-group form-group">
                                 <label> Start Date:</label>
-                                <div class='input-group date' id='datetimepicker6'>
-                                    <input type='text' name="startdate"  class="form-control" />
+                                <div class='controls input-group date' id='datetimepicker6'>
+                                    <input type='text'name="startdate"  class="form-control" />
                                     <span class="input-group-addon">
                                         <span class="glyphicon glyphicon-calendar"></span>
                                     </span>
@@ -174,9 +175,9 @@
                             </div>
                         </div>
                         <div class='col-md-4'>
-                            <div class="form-group">
+                            <div class="control-group form-group">
                                 <label> End Date:</label>
-                                <div class='input-group date' id='datetimepicker7'>
+                                <div class='controls input-group date' id='datetimepicker7'>
                                     <input type='text' name="enddate"   class="form-control" />
                                     <span class="input-group-addon">
                                         <span class="glyphicon glyphicon-calendar"></span>
@@ -184,8 +185,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <script type="text/javascript">
+                   <script type="text/javascript">
                         $(function () {
                             $('#datetimepicker6').datetimepicker();
                             $('#datetimepicker7').datetimepicker({
@@ -199,11 +199,12 @@
                             });
                         });
                     </script>
-                    
+                    </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Description:</label>
-                            <textarea rows="10" cols="100" class="form-control" name="Description" required data-validation-required-message="Please enter your description" maxlength="999" style="resize:none"></textarea>
+                            <textarea rows="10" cols="100" class="form-control" name="Description" 
+                            required data-validation-required-message="Please enter your description" maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
                     <c:if test="{$not empty requestScope.error}">

@@ -4242,3 +4242,9 @@ java.lang.IllegalArgumentException: Attempted to beginRule: P/OCBCDLessonWeb, do
 
 !ENTRY org.jboss.ide.eclipse.as.ui 2 0 2016-09-07 15:44:50.514
 !MESSAGE Server stopped before before browser could be opened.
+
+!ENTRY org.eclipse.jst.server.core 4 0 2016-09-07 17:21:50.721
+!MESSAGE Could not launch in profiling mode because no profilers are configured.
+
+!ENTRY org.jboss.ide.eclipse.as.ui 2 0 2016-09-07 17:35:06.321
+!MESSAGE Server stopped before before browser could be opened.
