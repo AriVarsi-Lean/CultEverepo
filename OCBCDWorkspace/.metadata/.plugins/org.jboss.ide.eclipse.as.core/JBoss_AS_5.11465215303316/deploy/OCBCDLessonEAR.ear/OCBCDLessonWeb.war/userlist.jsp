@@ -108,14 +108,13 @@
 				<c:if test="{$not empty requestScope.error}">
 					<tr><td>Unexpected Error1 : <c:out value="${requestScope.error}" /></td></tr>
 				</c:if>
-				<c:import url="/NamelistServlet"/>
 				<!--JSTL not playing nicely. If you can figure out why the line below does not work let me know.-->				
 				<!--  c:if test='{$!empty greeting}'-->				
-					<c:forEach var="jobs" items="${requestScope.names1}" varStatus="i">
+					<c:forEach var="username" items="${names1}" varStatus="i">
 					  
 					  <table>
 					    <tr class="tr1">
-					        <td>${jobs}</td>
+					        <td>${username}</td>
 					    </tr>
 					  </table>
 					</c:forEach>	
