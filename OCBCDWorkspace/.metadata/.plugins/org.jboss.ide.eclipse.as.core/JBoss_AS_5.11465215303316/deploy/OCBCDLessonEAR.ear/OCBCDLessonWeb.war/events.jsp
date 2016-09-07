@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ page import="ocbcd.helloworld.Models"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +33,7 @@
 
 </head>
 
-<body>
+<body >
  <!-- Navigation -->
     <nav style="font-size:20;font-family: Arial, Helvetica, sans-serif;" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -118,141 +119,42 @@
         </div>
         <!-- /.row -->
 
-        <div class="row">
-
-            <!-- Events Entries Column -->
-            <div class="col-md-8">
-                
-                 <!-- Third Events Post -->
-                <h2>
-                    <a href="#">Business Etiquette Skills</a>
-                </h2>
-                <p class="lead">
-                    by <a href="index.jsp">Cultural Crew</a>
-                </p>
-                <p><i class="fa fa-clock-o"></i> Posted on August 28, 2013 at 10:45 PM</p>
-                <hr>
-                <a href="eventpost.jsp">
-                    <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt="">
-                </a>
-                <hr>
-                <p>One of the essential things is to  train on the ordinances of the workplace versus social situations. Learn to touch on conversation skills , small talk , cultural differences in international business. Everyday daily things such as proper business email ,telephone etiquette, how to address important people. Our Business Etiquette workshop will help your participants look and sound their best no matter what the situation.</p>
-                <a class="btn btn-primary" href="eventpost.jsp">Read More <i class="fa fa-angle-right"></i></a>
-
-                <hr>
-
-                <!-- First Events Post -->
-                <h2>
-                    <a href="#">Interview preparation</a>
-                </h2>
-                <p class="lead">
-                    by <a href="index.jsp">Cultural Crew</a>
-                </p>
-                <p><i class="fa fa-clock-o"></i> Posted on june 28, 2016 at 10:00 PM</p>
-                <hr>
-                <a href="eventpost.jsp">
-                    <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt="">
-                </a>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
-                <a class="btn btn-primary" href="eventpost.jsp">Read More <i class="fa fa-angle-right"></i></a>
-
-                <hr>
-
-                <!-- Second Events Post -->
-                <h2>
-                    <a href="#">Creating a good CV</a>
-                </h2>
-                <p class="lead">
-                    by <a href="index.jsp">Cultural Crew</a>
-                </p>
-                <p><i class="fa fa-clock-o"></i> Posted on June 29, 2016 at 10:45 PM</p>
-                <hr>
-                <a href="eventpost.jsp">
-                    <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt="">
-                </a>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, quasi, fugiat, asperiores harum voluptatum tenetur a possimus nesciunt quod accusamus saepe tempora ipsam distinctio minima dolorum perferendis labore impedit voluptates!</p>
-                <a class="btn btn-primary" href="eventpost.jsp">Read More <i class="fa fa-angle-right"></i></a>
-
-                <hr>
-
+        <div class="row" >
+        	<form action="/OCBCDLessonWeb/EventListServlet" >	
+        	<jsp:useBean id="name" class="ocbcd.helloworld.Models" />
+				<c:forEach var="events" items="${names1}" varStatus="i">
+						
+						
+		            <!-- Events Entries Column -->
+		            <div class="col-md-8">
+		                
+		                 <!-- Third Events Post -->
+		                <h2>
+		                    <a href="#">${events.eventVenue}</a>
+		                </h2>
+		                <p class="lead">
+		                    by <a href="index.jsp">Cultural Crew</a>
+		                </p>
+		                <p><i class="fa fa-clock-o"></i> Start Date on ${events.eventStartDate}</p>
+		                 <p><i class="fa fa-clock-o"></i> Ending  Date on ${events.eventEndDate}</p>
+		                <hr>
+		                <a href="eventpost.jsp ">
+		                    <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt="">
+		                </a>
+		                <hr>
+		                <p>${events.eventDescription}</p>
+		                <a class="btn btn-primary" href="eventpost.jsp">Read More <i class="fa fa-angle-right"></i></a>
+		
+		                <hr>
+	                </div>
+	              
+				</c:forEach>
+              </form>
                
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="previous">
-                        <a href="#">&larr; Older</a>
-                    </li>
-                    <li class="next">
-                        <a href="#">Newer &rarr;</a>
-                    </li>
-                </ul>
-
-            </div>
-
-            <!-- Events Sidebar Widgets Column -->
-            <div class="col-md-4">
-
-                <!-- Events Search Well -->
-                <div class="well">
-                    <h4>Search on Events </h4>
-                    <div class="input-group">
-                        <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-                        </span>
-                    </div>
-                    <!-- /.input-group -->
-                </div>
-
-                <!-- Events Categories Well -->
-                <div class="well">
-                    <h4>Events Categories</h4>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Interviews</a>
-                                </li>
-                                <li><a href="#">research for Interview</a>
-                                </li>
-                                <li><a href="#">Getting the right skills</a>
-                                </li>
-                                <li><a href="#">How to be a top Candidate</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.col-lg-6 -->
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Choosing which IT field to pursue</a>
-                                </li>
-                                <li><a href="#">Keeping informed with tech trends</a>
-                                </li>
-                                <li><a href="#">Staying relevant whilest Job hunting</a>
-                                </li>
-                                <li><a href="#">How we can help you.</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.col-lg-6 -->
-                    </div>
-                    <!-- /.row -->
-                </div>
-
-                <!-- Side Widget Well -->
-                <div class="well">
-                    <h4>Keep yourself Informed withCultural Crew</h4>
-                    <p>Our aim is to link the best candidate and Employee together, 
-                        However family means together and together  means no one gets left out.
-                         Here we get to discuss on how to improve your skill and presentation whilest you go through the process 
-                         of job hunting.</p>
-                </div>
-
-            </div>
-
+               
         </div>
         <!-- /.row -->
-
+</div>
         <hr>
 
         <!-- Footer -->
@@ -283,7 +185,6 @@
             </div>
         </footer>
 
-    </div>
     <!-- /.container -->
 
     <!-- jQuery -->

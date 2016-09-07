@@ -59,7 +59,7 @@ public class CreateUserEJBServlet extends HttpServlet {
 			
 		
 			
-			request.getRequestDispatcher("createUser.jsp").include(request, response);
+			request.getRequestDispatcher("/helloworld/createUser.jsp").include(request, response);
 		}catch(Exception e){
 			logger.error("Unexpected failure", e);
 			e.printStackTrace();//Not good practice Must use a proper logger

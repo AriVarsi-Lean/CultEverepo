@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <%@ page import="ocbcd.helloworld.Models"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Cultural Crew Template</title>
+    <title>Cultural Crew Events</title>
     <link rel="icon" type="image/png" href="images/emergeicon.png" />
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -30,11 +29,17 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script language="javascript" type="text/javascript">
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
 
 </head>
 
-<body >
- <!-- Navigation -->
+<body>
+
+     <!-- Navigation -->
     <nav style="font-size:20;font-family: Arial, Helvetica, sans-serif;" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -45,12 +50,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.jsp"> <img src="images/logo.jpg" alt=""> </a>
+                <a class="navbar-brand" href="index.jsp"> <img src="images/logojpg" alt=""> </a>
             </div>
             <br> <br>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                 <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="about.jsp">About</a>
                     </li>
@@ -89,7 +94,7 @@
                         <a href="events.jsp">Upcoming Events</a>
                     </li>
                     <li>
-                        <a href="signin.jsp">Sign in </a>
+                        <a href="signin.hjsp">Sign in </a>
                     </li>
 
                 </ul>
@@ -101,60 +106,47 @@
     
     <br>    <br> <br>
 
-    <!-- Page Content -->
+    <!-- Page Content --
     <div class="container">
 
-        <!-- Page Heading/Breadcrumbs -->
+        <!-- Page Heading/Breadcrumbs --
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Events
-                    <small>Home</small>
+                <h1 class="page-header">Interview Preparation
+                    <small>by <a href="#">Emerge</a>
+                    </small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.jsp">Home</a>
                     </li>
-                    <li class="active"><a href="createEvent.jsp">Create new Event</a></li>
+                    <li class="active">Interview Preparation</li>
                 </ol>
             </div>
         </div>
         <!-- /.row -->
 
-        <div class="row" >
-        	<form action="/OCBCDLessonWeb/EventListServlet" >	
-        	<jsp:useBean id="name" class="ocbcd.helloworld.Models" />
-				<c:forEach var="events" items="${names1}" varStatus="i">
-						
-						
-		            <!-- Events Entries Column -->
-		            <div class="col-md-8">
-		                
-		                 <!-- Third Events Post -->
-		                <h2>
-		                    <a href="#">${events.eventVenue}</a>
-		                </h2>
-		                <p class="lead">
-		                    by <a href="index.jsp">Cultural Crew</a>
-		                </p>
-		                <p><i class="fa fa-clock-o"></i> Start Date on ${events.eventStartDate}</p>
-		                 <p><i class="fa fa-clock-o"></i> Ending  Date on ${events.eventEndDate}</p>
-		                <hr>
-		                <a href="eventpost.jsp ">
-		                    <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt="">
-		                </a>
-		                <hr>
-		                <p>${events.eventDescription}</p>
-		                <a class="btn btn-primary" href="eventpost.jsp">Read More <i class="fa fa-angle-right"></i></a>
+        <!-- Content Row 
+            Teddyngwenya.co.za/wordpress/
+            testingvarsi.Eventsspot.co.za/
+        -->
+        <div class="row">
+        <!--iframe src="//www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2FEverdam&amp;layout=standard&amp;show_faces=true&amp;colorscheme=light&amp;width=450&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe-->
+
+        <script language="javascript" type="text/javascript">
+        function resizeIframe(obj) {
+        obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
+        }
+        </script>
+
+
+
+	 <iframe class="col-lg-12" src ="http://Teddyngwenya.co.za/wordpress/" onload='javascript:resizeIframe(this);' >
 		
-		                <hr>
-	                </div>
-	              
-				</c:forEach>
-              </form>
-               
-               
-        </div>
-        <!-- /.row -->
-</div>
+	 </iframe>
+    	 </div>
+  
+
         <hr>
 
         <!-- Footer -->
@@ -165,7 +157,7 @@
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="simplenav">
-							<a href="#">Home</a> | 
+								<a href="#">Home</a> | 
 								<a href="">Events</a> |
 								<a href="">Culture groups</a> |
 								<a href="">Contact us</a> |
@@ -182,9 +174,9 @@
                     </p>
                 </div>
             </div>
-            </div>
-        </footer>
+         </footer>
 
+    </div>
     <!-- /.container -->
 
     <!-- jQuery -->

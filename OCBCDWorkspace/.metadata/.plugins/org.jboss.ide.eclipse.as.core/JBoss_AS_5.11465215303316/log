@@ -2925,3 +2925,9 @@ Caused by: java.net.ConnectException: Connection refused
 
 !ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 12:52:19.406
 !MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 12:54:56.803
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 12:55:27.260
+!MESSAGE Server Startup Succeeded

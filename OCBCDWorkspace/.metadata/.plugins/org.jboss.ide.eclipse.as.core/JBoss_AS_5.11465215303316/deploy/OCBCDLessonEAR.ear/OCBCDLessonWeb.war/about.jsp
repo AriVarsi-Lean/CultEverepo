@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <%@ page import="ocbcd.helloworld.Models"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Cultural Crew Template</title>
+    <title>About Emerge</title>
     <link rel="icon" type="image/png" href="images/emergeicon.png" />
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,8 +32,9 @@
 
 </head>
 
-<body >
- <!-- Navigation -->
+<body>
+
+     <!-- Navigation -->
     <nav style="font-size:20;font-family: Arial, Helvetica, sans-serif;" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -50,7 +50,7 @@
             <br> <br>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                 <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="about.jsp">About</a>
                     </li>
@@ -101,63 +101,86 @@
     
     <br>    <br> <br>
 
-    <!-- Page Content -->
-    <div class="container">
+     <div class="section">
+      <div class="container">
 
-        <!-- Page Heading/Breadcrumbs -->
         <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Events
-                    <small>Home</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.jsp">Home</a>
-                    </li>
-                    <li class="active"><a href="createEvent.jsp">Create new Event</a></li>
-                </ol>
-            </div>
-        </div>
-        <!-- /.row -->
+		<div class="col-lg-12">
+                            <h1 class="page-header">About
+                                <small></small>
+                            </h1>
+                    <ol class="breadcrumb" style="background:#FEFCE8">
+                                <li><a href="index.jsp">Home</a>
+                                </li>
+                                <li class="active">About</li>
+                            </ol>
 
-        <div class="row" >
-        	<form action="/OCBCDLessonWeb/EventListServlet" >	
-        	<jsp:useBean id="name" class="ocbcd.helloworld.Models" />
-				<c:forEach var="events" items="${names1}" varStatus="i">
-						
-						
-		            <!-- Events Entries Column -->
-		            <div class="col-md-8">
-		                
-		                 <!-- Third Events Post -->
-		                <h2>
-		                    <a href="#">${events.eventVenue}</a>
-		                </h2>
-		                <p class="lead">
-		                    by <a href="index.jsp">Cultural Crew</a>
-		                </p>
-		                <p><i class="fa fa-clock-o"></i> Start Date on ${events.eventStartDate}</p>
-		                 <p><i class="fa fa-clock-o"></i> Ending  Date on ${events.eventEndDate}</p>
-		                <hr>
-		                <a href="eventpost.jsp ">
-		                    <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt="">
-		                </a>
-		                <hr>
-		                <p>${events.eventDescription}</p>
-		                <a class="btn btn-primary" href="eventpost.jsp">Read More <i class="fa fa-angle-right"></i></a>
-		
-		                <hr>
-	                </div>
-	              
-				</c:forEach>
-              </form>
-               
-               
-        </div>
-        <!-- /.row -->
-</div>
+                    <div class="col-md-6">
+                        <img src="images/culture9.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="text-muted">Cultural Crew  is a specialist niche agency working in specific
+                        cultural verticals. Organising  in our specialised fields, we make strategic
+                        selections for both Organisers  and event venues using our extensive attention,
+                        knowledge and experience to create best-fit placements. As the antithesis
+                        of an average recruitment company, we provide our clients and candidates
+                        with a contextual understanding of the market, allowing for professional
+                        and personal choices. <br> We are not trying to change the appeal of the past but rather taking 
+                        a holistic service, matching people, highlighting on where we came from.
+                        for a win situation for all parties. </p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                
+                
+                
+                <div class="section">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-md-6">
+                        <p class="text-muted">Starting off as a small 2-man Events  agency 14 years ago,Cultural Crew
+                         has grown to a formidable force in the tourism and culture Industry
+                        in Namibia today. Based in Windhoek and employing over 23 people,
+                       Cultural Crew continues to grow their unique model ofOrganising events with 7 specialist
+                        silos being fully developed and functional with local ethnic groups constantly
+                        being evaluated and considered as potential growth areas. With a focus
+                        on being a service agency in addition to a Events solutions,Cultural Crew
+                        offers strategic and targeted placements.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="text-muted"> As  proudly Namibian, we
+                        pride ourselves on our integrity, service orientation and knowledge application
+                        to build the best options for clients and Organisers alike. Everything
+                        we do is measured, focused with constant prioritising for the best candidate
+                        and Organisers experience and placement.<br>
+                    A core belief for the team is that our role is to give people options â whether Client or Candidate, we facilitate
+                        informed choice. We are not trying to fit square pegs in round holes but
+                        rather providing a holistic service, matching people, personalities and
+                        technical skills for a win situation for all parties.</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="section">
+                <div class="container">
+                    <div class="row">
+                    
+                
+
+
+
+
+
+                </div>
+            </div>
+
+
         <hr>
 
         <!-- Footer -->
+       <!-- Footer -->
          <footer>
             <div class="container">
 				<div class="row">
@@ -165,7 +188,7 @@
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="simplenav">
-							<a href="#">Home</a> | 
+								<a href="#">Home</a> | 
 								<a href="">Events</a> |
 								<a href="">Culture groups</a> |
 								<a href="">Contact us</a> |
@@ -185,6 +208,7 @@
             </div>
         </footer>
 
+    </div>
     <!-- /.container -->
 
     <!-- jQuery -->
