@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
-  <module moduleId="org.eclipse.jst.jee.server:OCBCDLessonEAR"/>
+  <module moduleId="org.eclipse.jst.jee.server:OCBCDLessonEAR" serverId="JBoss AS 5.11465215303316"/>
   <module moduleId="org.eclipse.jst.jee.server:OCBCDLessonWeb" serverId="JBoss AS 5.11465215303316"/>
   <module moduleId="org.eclipse.jst.jee.server:OCBCDLessonEJB" serverId="JBoss AS 5.11464958865198"/>
 </modules>

@@ -4982,3 +4982,46 @@ Caused by: java.rmi.NoSuchObjectException: no such object in table
 
 !ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 17:48:50.792
 !MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 17:54:30.966
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 17:55:00.115
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 18:09:29.904
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 18:11:23.927
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 18:11:52.858
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 18:19:40.803
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 18:20:29.083
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 18:20:55.948
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 18:22:44.011
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 18:23:45.270
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 18:24:12.524
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-07 18:24:53.085
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-07 18:25:18.410
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-07 18:25:46.163
+!MESSAGE Server Startup Succeeded

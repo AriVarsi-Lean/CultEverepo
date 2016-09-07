@@ -4,4 +4,5 @@
 <fullyQualifiedTypeName name="ocbcd.helloworld.UserDTO"/>
 <fullyQualifiedTypeName name="ocbcd.helloworld.UserDAORemote"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="ocbcd.helloworld.Models"/>
 </qualifiedTypeNameHistroy>

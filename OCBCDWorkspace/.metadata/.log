@@ -4248,3 +4248,98 @@ java.lang.IllegalArgumentException: Attempted to beginRule: P/OCBCDLessonWeb, do
 
 !ENTRY org.jboss.ide.eclipse.as.ui 2 0 2016-09-07 17:35:06.321
 !MESSAGE Server stopped before before browser could be opened.
+!SESSION 2016-09-07 18:09:46.365 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_ZA
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/ari/Documents/CultureEvents/CultEverepo/OCBCDWorkspace/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2016-09-07 18:10:00.864
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-09-07 18:10:00.865
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(com.springsource.sts.roo.ui.shell.show,Open Roo Command Prompt,
+		Roo Command Prompt,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3e5febe9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.jboss.tools.jmx.ui.navigate.refresh,Refresh,
+		Refreshes the tree,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5643052d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2016-09-07 18:10:26.937
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.common.jdt.debug.ui, page: org.jboss.tools.common.jdt.debug.ui.preferences.RemoteDebugPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2016-09-07 18:10:26.937
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.foundation.ui, page: org.jboss.tools.foundation.ui.internal.credentials.CredentialPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2016-09-07 18:10:26.938
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2016-09-07 18:10:26.938
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.eclipse.ui 4 4 2016-09-07 18:21:00.400
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@5a110e7d)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@3cea2750)}
+
+!ENTRY org.eclipse.jst.server.core 4 0 2016-09-07 18:23:27.112
+!MESSAGE Could not launch in profiling mode because no profilers are configured.
+
+!ENTRY org.eclipse.jst.server.core 4 0 2016-09-07 18:23:39.705
+!MESSAGE Could not launch in profiling mode because no profilers are configured.
+
+!ENTRY org.eclipse.jst.server.core 4 0 2016-09-07 18:24:53.183
+!MESSAGE Could not launch in profiling mode because no profilers are configured.
+!SESSION 2016-09-07 18:34:18.411 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_ZA
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-09-07 18:34:28.891
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2016-09-07 18:34:36.062
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-09-07 18:34:36.062
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(com.springsource.sts.roo.ui.shell.show,Open Roo Command Prompt,
+		Roo Command Prompt,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3763aafd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.jboss.tools.jmx.ui.navigate.refresh,Refresh,
+		Refreshes the tree,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16ca4532,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2016-09-07 18:34:48.192
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.common.jdt.debug.ui, page: org.jboss.tools.common.jdt.debug.ui.preferences.RemoteDebugPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2016-09-07 18:34:48.193
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.foundation.ui, page: org.jboss.tools.foundation.ui.internal.credentials.CredentialPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2016-09-07 18:34:48.193
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2016-09-07 18:34:48.193
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
