@@ -30,7 +30,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script language="javascript" type="text/javascript">
-  function resizeIframe(obj) {
+  	function resizeIframe(obj) {
     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
   }
 </script>
@@ -170,7 +170,7 @@
 						
                    
                     <p class="text-right">
-                        <a href=""> Website by  &copy;Erasi Kasa</a>
+                        <a href="ktasolutions.co.za"> website by &copy;KTA Solutions </a>
                     </p>
                 </div>
             </div>

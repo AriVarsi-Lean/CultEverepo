@@ -36,5 +36,37 @@
 				<tr><td><input type="submit"></td></tr>
 			</table>
 		</form>
-	</body>
+            <!-- Footer -->
+            <footer>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-6 widget">
+                            <div class="widget-body">
+                                <p class="simplenav">
+                                  <a href="#">Home</a> | 
+								<a href="">Events</a> |
+								<a href="">Culture groups</a> |
+								<a href="">Contact us</a> |
+								<b><a href="">Sign up/Sign in</a></b>
+							 </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 widget">
+
+
+                            <p class="text-right">
+                                <a href="ktasolutions.co.za"> website by &copy;KTA Solutions </a>
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+            </footer>
+
+      </div>
+      <!-- /.container -->
+
+</body>
+
 </html>

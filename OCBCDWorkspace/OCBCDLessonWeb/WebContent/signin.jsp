@@ -198,7 +198,7 @@
 						
                    
                     <p class="text-right">
-                         <a href=""> Website by  &copy;Erasi Kasa</a>
+                         <a href="ktasolutions.co.za"> website by &copy;KTA Solutions </a>
                     </p>
                 </div>
             </div>
